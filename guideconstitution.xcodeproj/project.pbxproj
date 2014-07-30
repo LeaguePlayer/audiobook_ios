@@ -1,0 +1,2241 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		27407EEC14D8787E0035FD7F /* iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 27407EEB14D8787E0035FD7F /* iPad.storyboard */; };
+		2750E77114CDB0DF007727A0 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2750E77014CDB0DF007727A0 /* UIKit.framework */; };
+		2750E77314CDB0DF007727A0 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2750E77214CDB0DF007727A0 /* Foundation.framework */; };
+		2750E77514CDB0DF007727A0 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2750E77414CDB0DF007727A0 /* CoreGraphics.framework */; };
+		2750E77B14CDB0DF007727A0 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 2750E77914CDB0DF007727A0 /* InfoPlist.strings */; };
+		2750E77D14CDB0DF007727A0 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 2750E77C14CDB0DF007727A0 /* main.m */; };
+		2750E78114CDB0DF007727A0 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 2750E78014CDB0DF007727A0 /* AppDelegate.m */; };
+		2750E78814CDB114007727A0 /* iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2750E78714CDB114007727A0 /* iPhone.storyboard */; };
+		2750E79414CDB93A007727A0 /* MenuViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2750E79314CDB93A007727A0 /* MenuViewController.m */; };
+		2750E79714CDB959007727A0 /* FirstTopViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2750E79614CDB959007727A0 /* FirstTopViewController.m */; };
+		2750E7AE14CF1306007727A0 /* ECSlidingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2750E7AB14CF1306007727A0 /* ECSlidingViewController.m */; };
+		2750E7AF14CF1306007727A0 /* UIImage+ImageWithUIView.m in Sources */ = {isa = PBXBuildFile; fileRef = 2750E7AD14CF1306007727A0 /* UIImage+ImageWithUIView.m */; };
+		27FC94E014D0C14E0000B18C /* InitialSlidingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 27FC94DF14D0C14E0000B18C /* InitialSlidingViewController.m */; };
+		27FC94E314D105C60000B18C /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 27FC94E214D105C60000B18C /* QuartzCore.framework */; };
+		CF1C8491175F2D2F00372658 /* Конституция Российской Федерации. Вступление.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = CF1C8490175F2D2F00372658 /* Конституция Российской Федерации. Вступление.mp3 */; };
+		CF1C84A2175F2D9700372658 /* Раздел 1. Глава 1. - Основы конституционного строя. Статья 1.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = CF1C8492175F2D9700372658 /* Раздел 1. Глава 1. - Основы конституционного строя. Статья 1.mp3 */; };
+		CF1C84A3175F2D9700372658 /* Статья 2.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = CF1C8493175F2D9700372658 /* Статья 2.mp3 */; };
+		CF1C84A4175F2D9700372658 /* Статья 3.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = CF1C8494175F2D9700372658 /* Статья 3.mp3 */; };
+		CF1C84A5175F2D9700372658 /* Статья 4.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = CF1C8495175F2D9700372658 /* Статья 4.mp3 */; };
+		CF1C84A6175F2D9700372658 /* Статья 5.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = CF1C8496175F2D9700372658 /* Статья 5.mp3 */; };
+		CF1C84A7175F2D9700372658 /* Статья 6.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = CF1C8497175F2D9700372658 /* Статья 6.mp3 */; };
+		CF1C84A8175F2D9700372658 /* Статья 7.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = CF1C8498175F2D9700372658 /* Статья 7.mp3 */; };
+		CF1C84A9175F2D9700372658 /* Статья 8.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = CF1C8499175F2D9700372658 /* Статья 8.mp3 */; };
+		CF1C84AA175F2D9700372658 /* Статья 9.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = CF1C849A175F2D9700372658 /* Статья 9.mp3 */; };
+		CF1C84AB175F2D9700372658 /* Статья 10.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = CF1C849B175F2D9700372658 /* Статья 10.mp3 */; };
+		CF1C84AC175F2D9700372658 /* Статья 11.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = CF1C849C175F2D9700372658 /* Статья 11.mp3 */; };
+		CF1C84AD175F2D9700372658 /* Статья 12.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = CF1C849D175F2D9700372658 /* Статья 12.mp3 */; };
+		CF1C84AE175F2D9700372658 /* Статья 13.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = CF1C849E175F2D9700372658 /* Статья 13.mp3 */; };
+		CF1C84AF175F2D9700372658 /* Статья 14.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = CF1C849F175F2D9700372658 /* Статья 14.mp3 */; };
+		CF1C84B0175F2D9700372658 /* Статья 15.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = CF1C84A0175F2D9700372658 /* Статья 15.mp3 */; };
+		CF1C84B1175F2D9700372658 /* Статья 16.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = CF1C84A1175F2D9700372658 /* Статья 16.mp3 */; };
+		CF1C84E2175F4DD400372658 /* Глава 2.- Права и свободы человека и гражданина. Статья 17.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = CF1C84B2175F4DD300372658 /* Глава 2.- Права и свободы человека и гражданина. Статья 17.mp3 */; };
+		CF1C84E3175F4DD400372658 /* Статья 18.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = CF1C84B3175F4DD300372658 /* Статья 18.mp3 */; };
+		CF1C84E4175F4DD400372658 /* Статья 19.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = CF1C84B4175F4DD300372658 /* Статья 19.mp3 */; };
+		CF1C84E5175F4DD400372658 /* Статья 20.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = CF1C84B5175F4DD300372658 /* Статья 20.mp3 */; };
+		CF1C84E6175F4DD400372658 /* Статья 21.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = CF1C84B6175F4DD300372658 /* Статья 21.mp3 */; };
+		CF1C84E7175F4DD400372658 /* Статья 22.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = CF1C84B7175F4DD300372658 /* Статья 22.mp3 */; };
+		CF1C84E8175F4DD400372658 /* Статья 23.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = CF1C84B8175F4DD300372658 /* Статья 23.mp3 */; };
+		CF1C84E9175F4DD400372658 /* Статья 24.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = CF1C84B9175F4DD300372658 /* Статья 24.mp3 */; };
+		CF1C84EA175F4DD400372658 /* Статья 25.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = CF1C84BA175F4DD300372658 /* Статья 25.mp3 */; };
+		CF1C84EB175F4DD400372658 /* Статья 26.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = CF1C84BB175F4DD300372658 /* Статья 26.mp3 */; };
+		CF1C84EC175F4DD400372658 /* Статья 27.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = CF1C84BC175F4DD300372658 /* Статья 27.mp3 */; };
+		CF1C84ED175F4DD400372658 /* Статья 28.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = CF1C84BD175F4DD300372658 /* Статья 28.mp3 */; };
+		CF1C84EE175F4DD400372658 /* Статья 29.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = CF1C84BE175F4DD300372658 /* Статья 29.mp3 */; };
+		CF1C84EF175F4DD400372658 /* Статья 30.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = CF1C84BF175F4DD300372658 /* Статья 30.mp3 */; };
+		CF1C84F0175F4DD400372658 /* Статья 31.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = CF1C84C0175F4DD300372658 /* Статья 31.mp3 */; };
+		CF1C84F1175F4DD400372658 /* Статья 32.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = CF1C84C1175F4DD300372658 /* Статья 32.mp3 */; };
+		CF1C84F2175F4DD400372658 /* Статья 33.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = CF1C84C2175F4DD300372658 /* Статья 33.mp3 */; };
+		CF1C84F3175F4DD400372658 /* Статья 34.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = CF1C84C3175F4DD300372658 /* Статья 34.mp3 */; };
+		CF1C84F4175F4DD400372658 /* Статья 35.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = CF1C84C4175F4DD300372658 /* Статья 35.mp3 */; };
+		CF1C84F5175F4DD400372658 /* Статья 36.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = CF1C84C5175F4DD300372658 /* Статья 36.mp3 */; };
+		CF1C84F6175F4DD400372658 /* Статья 37.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = CF1C84C6175F4DD300372658 /* Статья 37.mp3 */; };
+		CF1C84F7175F4DD400372658 /* Статья 38.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = CF1C84C7175F4DD300372658 /* Статья 38.mp3 */; };
+		CF1C84F8175F4DD400372658 /* Статья 39.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = CF1C84C8175F4DD300372658 /* Статья 39.mp3 */; };
+		CF1C84F9175F4DD400372658 /* Статья 40.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = CF1C84C9175F4DD300372658 /* Статья 40.mp3 */; };
+		CF1C84FA175F4DD400372658 /* Статья 41.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = CF1C84CA175F4DD300372658 /* Статья 41.mp3 */; };
+		CF1C84FB175F4DD400372658 /* Статья 42.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = CF1C84CB175F4DD300372658 /* Статья 42.mp3 */; };
+		CF1C84FC175F4DD400372658 /* Статья 43.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = CF1C84CC175F4DD300372658 /* Статья 43.mp3 */; };
+		CF1C84FD175F4DD400372658 /* Статья 44.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = CF1C84CD175F4DD300372658 /* Статья 44.mp3 */; };
+		CF1C84FE175F4DD400372658 /* Статья 45.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = CF1C84CE175F4DD300372658 /* Статья 45.mp3 */; };
+		CF1C84FF175F4DD400372658 /* Статья 46.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = CF1C84CF175F4DD300372658 /* Статья 46.mp3 */; };
+		CF1C8500175F4DD400372658 /* Статья 47.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = CF1C84D0175F4DD300372658 /* Статья 47.mp3 */; };
+		CF1C8501175F4DD400372658 /* Статья 48.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = CF1C84D1175F4DD300372658 /* Статья 48.mp3 */; };
+		CF1C8502175F4DD400372658 /* Статья 49.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = CF1C84D2175F4DD300372658 /* Статья 49.mp3 */; };
+		CF1C8503175F4DD400372658 /* Статья 50.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = CF1C84D3175F4DD300372658 /* Статья 50.mp3 */; };
+		CF1C8504175F4DD400372658 /* Статья 51.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = CF1C84D4175F4DD300372658 /* Статья 51.mp3 */; };
+		CF1C8505175F4DD400372658 /* Статья 52.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = CF1C84D5175F4DD300372658 /* Статья 52.mp3 */; };
+		CF1C8506175F4DD400372658 /* Статья 53.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = CF1C84D6175F4DD300372658 /* Статья 53.mp3 */; };
+		CF1C8507175F4DD400372658 /* Статья 54.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = CF1C84D7175F4DD300372658 /* Статья 54.mp3 */; };
+		CF1C8508175F4DD400372658 /* Статья 55.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = CF1C84D8175F4DD300372658 /* Статья 55.mp3 */; };
+		CF1C8509175F4DD400372658 /* Статья 56.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = CF1C84D9175F4DD300372658 /* Статья 56.mp3 */; };
+		CF1C850A175F4DD400372658 /* Статья 57.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = CF1C84DA175F4DD300372658 /* Статья 57.mp3 */; };
+		CF1C850B175F4DD400372658 /* Статья 58.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = CF1C84DB175F4DD400372658 /* Статья 58.mp3 */; };
+		CF1C850C175F4DD400372658 /* Статья 59.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = CF1C84DC175F4DD400372658 /* Статья 59.mp3 */; };
+		CF1C850D175F4DD400372658 /* Статья 60.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = CF1C84DD175F4DD400372658 /* Статья 60.mp3 */; };
+		CF1C850E175F4DD400372658 /* Статья 61.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = CF1C84DE175F4DD400372658 /* Статья 61.mp3 */; };
+		CF1C850F175F4DD400372658 /* Статья 62.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = CF1C84DF175F4DD400372658 /* Статья 62.mp3 */; };
+		CF1C8510175F4DD400372658 /* Статья 63.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = CF1C84E0175F4DD400372658 /* Статья 63.mp3 */; };
+		CF1C8511175F4DD400372658 /* Статья 64.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = CF1C84E1175F4DD400372658 /* Статья 64.mp3 */; };
+		CF1C8521175F4EA800372658 /* Глава 3.- Федеративное устройство. Статья 65.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = CF1C8512175F4EA800372658 /* Глава 3.- Федеративное устройство. Статья 65.mp3 */; };
+		CF1C8522175F4EA800372658 /* Статья 66.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = CF1C8513175F4EA800372658 /* Статья 66.mp3 */; };
+		CF1C8523175F4EA800372658 /* Статья 67.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = CF1C8514175F4EA800372658 /* Статья 67.mp3 */; };
+		CF1C8524175F4EA800372658 /* Статья 68.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = CF1C8515175F4EA800372658 /* Статья 68.mp3 */; };
+		CF1C8525175F4EA800372658 /* Статья 69.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = CF1C8516175F4EA800372658 /* Статья 69.mp3 */; };
+		CF1C8526175F4EA800372658 /* Статья 70.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = CF1C8517175F4EA800372658 /* Статья 70.mp3 */; };
+		CF1C8527175F4EA800372658 /* Статья 71.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = CF1C8518175F4EA800372658 /* Статья 71.mp3 */; };
+		CF1C8528175F4EA800372658 /* Статья 72.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = CF1C8519175F4EA800372658 /* Статья 72.mp3 */; };
+		CF1C8529175F4EA800372658 /* Статья 73.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = CF1C851A175F4EA800372658 /* Статья 73.mp3 */; };
+		CF1C852A175F4EA800372658 /* Статья 74.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = CF1C851B175F4EA800372658 /* Статья 74.mp3 */; };
+		CF1C852B175F4EA800372658 /* Статья 75.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = CF1C851C175F4EA800372658 /* Статья 75.mp3 */; };
+		CF1C852C175F4EA800372658 /* Статья 76.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = CF1C851D175F4EA800372658 /* Статья 76.mp3 */; };
+		CF1C852D175F4EA800372658 /* Статья 77.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = CF1C851E175F4EA800372658 /* Статья 77.mp3 */; };
+		CF1C852E175F4EA800372658 /* Статья 78.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = CF1C851F175F4EA800372658 /* Статья 78.mp3 */; };
+		CF1C852F175F4EA800372658 /* Статья 79.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = CF1C8520175F4EA800372658 /* Статья 79.mp3 */; };
+		CF1C853E175F4F1B00372658 /* Глава 4.- Президент Российской Федерации. Статья 80.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = CF1C8530175F4F1B00372658 /* Глава 4.- Президент Российской Федерации. Статья 80.mp3 */; };
+		CF1C853F175F4F1B00372658 /* Статья 81.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = CF1C8531175F4F1B00372658 /* Статья 81.mp3 */; };
+		CF1C8540175F4F1B00372658 /* Статья 82.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = CF1C8532175F4F1B00372658 /* Статья 82.mp3 */; };
+		CF1C8541175F4F1B00372658 /* Статья 83.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = CF1C8533175F4F1B00372658 /* Статья 83.mp3 */; };
+		CF1C8542175F4F1B00372658 /* Статья 84.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = CF1C8534175F4F1B00372658 /* Статья 84.mp3 */; };
+		CF1C8543175F4F1B00372658 /* Статья 85.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = CF1C8535175F4F1B00372658 /* Статья 85.mp3 */; };
+		CF1C8544175F4F1B00372658 /* Статья 86.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = CF1C8536175F4F1B00372658 /* Статья 86.mp3 */; };
+		CF1C8545175F4F1B00372658 /* Статья 87.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = CF1C8537175F4F1B00372658 /* Статья 87.mp3 */; };
+		CF1C8546175F4F1B00372658 /* Статья 88.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = CF1C8538175F4F1B00372658 /* Статья 88.mp3 */; };
+		CF1C8547175F4F1B00372658 /* Статья 89.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = CF1C8539175F4F1B00372658 /* Статья 89.mp3 */; };
+		CF1C8548175F4F1B00372658 /* Статья 90.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = CF1C853A175F4F1B00372658 /* Статья 90.mp3 */; };
+		CF1C8549175F4F1B00372658 /* Статья 91.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = CF1C853B175F4F1B00372658 /* Статья 91.mp3 */; };
+		CF1C854A175F4F1B00372658 /* Статья 92.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = CF1C853C175F4F1B00372658 /* Статья 92.mp3 */; };
+		CF1C854B175F4F1B00372658 /* Статья 93.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = CF1C853D175F4F1B00372658 /* Статья 93.mp3 */; };
+		CF1C855C175F4FBD00372658 /* Глава 5.- Федеральное собрание. Статья 94.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = CF1C854C175F4FBD00372658 /* Глава 5.- Федеральное собрание. Статья 94.mp3 */; };
+		CF1C855D175F4FBD00372658 /* Статья 95.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = CF1C854D175F4FBD00372658 /* Статья 95.mp3 */; };
+		CF1C855E175F4FBD00372658 /* Статья 96.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = CF1C854E175F4FBD00372658 /* Статья 96.mp3 */; };
+		CF1C855F175F4FBD00372658 /* Статья 97.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = CF1C854F175F4FBD00372658 /* Статья 97.mp3 */; };
+		CF1C8560175F4FBD00372658 /* Статья 98.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = CF1C8550175F4FBD00372658 /* Статья 98.mp3 */; };
+		CF1C8561175F4FBD00372658 /* Статья 99.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = CF1C8551175F4FBD00372658 /* Статья 99.mp3 */; };
+		CF1C8562175F4FBD00372658 /* Статья 100.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = CF1C8552175F4FBD00372658 /* Статья 100.mp3 */; };
+		CF1C8563175F4FBD00372658 /* Статья 101.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = CF1C8553175F4FBD00372658 /* Статья 101.mp3 */; };
+		CF1C8564175F4FBD00372658 /* Статья 102.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = CF1C8554175F4FBD00372658 /* Статья 102.mp3 */; };
+		CF1C8565175F4FBD00372658 /* Статья 103.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = CF1C8555175F4FBD00372658 /* Статья 103.mp3 */; };
+		CF1C8566175F4FBD00372658 /* Статья 104.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = CF1C8556175F4FBD00372658 /* Статья 104.mp3 */; };
+		CF1C8567175F4FBD00372658 /* Статья 105.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = CF1C8557175F4FBD00372658 /* Статья 105.mp3 */; };
+		CF1C8568175F4FBD00372658 /* Статья 106.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = CF1C8558175F4FBD00372658 /* Статья 106.mp3 */; };
+		CF1C8569175F4FBD00372658 /* Статья 107.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = CF1C8559175F4FBD00372658 /* Статья 107.mp3 */; };
+		CF1C856A175F4FBD00372658 /* Статья 108.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = CF1C855A175F4FBD00372658 /* Статья 108.mp3 */; };
+		CF1C856B175F4FBD00372658 /* Статья 109.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = CF1C855B175F4FBD00372658 /* Статья 109.mp3 */; };
+		CF1C8580175F50D200372658 /* Глава 6.- Правительство Российской Федерации. Статья 110.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = CF1C856C175F50D100372658 /* Глава 6.- Правительство Российской Федерации. Статья 110.mp3 */; };
+		CF1C8581175F50D200372658 /* Глава 7.- Судебная власть. Статья 118.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = CF1C856D175F50D100372658 /* Глава 7.- Судебная власть. Статья 118.mp3 */; };
+		CF1C8582175F50D200372658 /* Статья 111.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = CF1C856E175F50D100372658 /* Статья 111.mp3 */; };
+		CF1C8583175F50D200372658 /* Статья 112.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = CF1C856F175F50D100372658 /* Статья 112.mp3 */; };
+		CF1C8584175F50D200372658 /* Статья 113.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = CF1C8570175F50D100372658 /* Статья 113.mp3 */; };
+		CF1C8585175F50D200372658 /* Статья 114.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = CF1C8571175F50D200372658 /* Статья 114.mp3 */; };
+		CF1C8586175F50D200372658 /* Статья 115.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = CF1C8572175F50D200372658 /* Статья 115.mp3 */; };
+		CF1C8587175F50D200372658 /* Статья 116.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = CF1C8573175F50D200372658 /* Статья 116.mp3 */; };
+		CF1C8588175F50D200372658 /* Статья 117.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = CF1C8574175F50D200372658 /* Статья 117.mp3 */; };
+		CF1C8589175F50D200372658 /* Статья 119.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = CF1C8575175F50D200372658 /* Статья 119.mp3 */; };
+		CF1C858A175F50D200372658 /* Статья 120.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = CF1C8576175F50D200372658 /* Статья 120.mp3 */; };
+		CF1C858B175F50D200372658 /* Статья 121.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = CF1C8577175F50D200372658 /* Статья 121.mp3 */; };
+		CF1C858C175F50D200372658 /* Статья 122.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = CF1C8578175F50D200372658 /* Статья 122.mp3 */; };
+		CF1C858D175F50D200372658 /* Статья 123.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = CF1C8579175F50D200372658 /* Статья 123.mp3 */; };
+		CF1C858E175F50D200372658 /* Статья 124.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = CF1C857A175F50D200372658 /* Статья 124.mp3 */; };
+		CF1C858F175F50D200372658 /* Статья 125.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = CF1C857B175F50D200372658 /* Статья 125.mp3 */; };
+		CF1C8590175F50D200372658 /* Статья 126.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = CF1C857C175F50D200372658 /* Статья 126.mp3 */; };
+		CF1C8591175F50D200372658 /* Статья 127.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = CF1C857D175F50D200372658 /* Статья 127.mp3 */; };
+		CF1C8592175F50D200372658 /* Статья 128.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = CF1C857E175F50D200372658 /* Статья 128.mp3 */; };
+		CF1C8593175F50D200372658 /* Статья 129.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = CF1C857F175F50D200372658 /* Статья 129.mp3 */; };
+		CF1C859D175F50E300372658 /* Глава 8.- Местное самоуправление.  Статья 130.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = CF1C8594175F50E300372658 /* Глава 8.- Местное самоуправление.  Статья 130.mp3 */; };
+		CF1C859E175F50E300372658 /* Глава 9.- Конституционные поправки и пересмотр конституции. Статья 134.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = CF1C8595175F50E300372658 /* Глава 9.- Конституционные поправки и пересмотр конституции. Статья 134.mp3 */; };
+		CF1C859F175F50E300372658 /* Раздел 2- Заключительное и переходное положение.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = CF1C8596175F50E300372658 /* Раздел 2- Заключительное и переходное положение.mp3 */; };
+		CF1C85A0175F50E300372658 /* Статья 131.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = CF1C8597175F50E300372658 /* Статья 131.mp3 */; };
+		CF1C85A1175F50E300372658 /* Статья 132.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = CF1C8598175F50E300372658 /* Статья 132.mp3 */; };
+		CF1C85A2175F50E300372658 /* Статья 133.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = CF1C8599175F50E300372658 /* Статья 133.mp3 */; };
+		CF1C85A3175F50E300372658 /* Статья 135.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = CF1C859A175F50E300372658 /* Статья 135.mp3 */; };
+		CF1C85A4175F50E300372658 /* Статья 136.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = CF1C859B175F50E300372658 /* Статья 136.mp3 */; };
+		CF1C85A5175F50E300372658 /* Статья 137.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = CF1C859C175F50E300372658 /* Статья 137.mp3 */; };
+		CF218868179E3B0800D99149 /* sh.png in Resources */ = {isa = PBXBuildFile; fileRef = CF218866179E3B0800D99149 /* sh.png */; };
+		CF218869179E3B0800D99149 /* sh@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = CF218867179E3B0800D99149 /* sh@2x.png */; };
+		CF218895179E3C4A00D99149 /* LinksTableController.m in Sources */ = {isa = PBXBuildFile; fileRef = CF218894179E3C4A00D99149 /* LinksTableController.m */; };
+		CF218898179E405F00D99149 /* BrowserController.m in Sources */ = {isa = PBXBuildFile; fileRef = CF218897179E405F00D99149 /* BrowserController.m */; };
+		CF607AD4176F1DA600071529 /* icon114.png in Resources */ = {isa = PBXBuildFile; fileRef = CF607AD3176F1DA600071529 /* icon114.png */; };
+		CF6192B0177C686C0023F074 /* libFlurry_4.2.2.a in Frameworks */ = {isa = PBXBuildFile; fileRef = CF6192AF177C686C0023F074 /* libFlurry_4.2.2.a */; };
+		CF6192BB177C6D160023F074 /* Reachability.m in Sources */ = {isa = PBXBuildFile; fileRef = CF6192BA177C6D160023F074 /* Reachability.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		CF6192BD177C6DAC0023F074 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CF6192BC177C6DAC0023F074 /* SystemConfiguration.framework */; };
+		CF6192C1177C72230023F074 /* myCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = CF6192C0177C72230023F074 /* myCell.xib */; };
+		CF6192C4177C722F0023F074 /* myCell.m in Sources */ = {isa = PBXBuildFile; fileRef = CF6192C3177C722F0023F074 /* myCell.m */; };
+		CF7ED05017BA5BF800EDD3C1 /* i.png in Resources */ = {isa = PBXBuildFile; fileRef = CF7ED04E17BA5BF700EDD3C1 /* i.png */; };
+		CF7ED05117BA5BF800EDD3C1 /* i@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = CF7ED04F17BA5BF700EDD3C1 /* i@2x.png */; };
+		CF7ED05417BA5E1100EDD3C1 /* in@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = CF7ED05217BA5E1000EDD3C1 /* in@2x.png */; };
+		CF7ED05517BA5E1100EDD3C1 /* in.png in Resources */ = {isa = PBXBuildFile; fileRef = CF7ED05317BA5E1000EDD3C1 /* in.png */; };
+		CF81ADF2179D350A0012B4C0 /* libShareKit.a in Frameworks */ = {isa = PBXBuildFile; fileRef = CF81AD99179D34AA0012B4C0 /* libShareKit.a */; };
+		CF81ADF3179D35230012B4C0 /* ShareKit.bundle in Resources */ = {isa = PBXBuildFile; fileRef = CF81AD9B179D34AA0012B4C0 /* ShareKit.bundle */; };
+		CF81ADF5179D35780012B4C0 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CF81ADF4179D35780012B4C0 /* Security.framework */; };
+		CF81ADF7179D357E0012B4C0 /* MessageUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CF81ADF6179D357E0012B4C0 /* MessageUI.framework */; };
+		CF81ADF9179D35840012B4C0 /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CF81ADF8179D35840012B4C0 /* MobileCoreServices.framework */; };
+		CF81ADFB179D358A0012B4C0 /* CoreMedia.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CF81ADFA179D358A0012B4C0 /* CoreMedia.framework */; };
+		CF81ADFD179D35950012B4C0 /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CF81ADFC179D35950012B4C0 /* CFNetwork.framework */; };
+		CF81ADFF179D359A0012B4C0 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CF81ADFE179D359A0012B4C0 /* CoreLocation.framework */; };
+		CF81AE01179D35AD0012B4C0 /* Twitter.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CF81AE00179D35AD0012B4C0 /* Twitter.framework */; };
+		CF81AE03179D35B20012B4C0 /* AdSupport.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CF81AE02179D35B20012B4C0 /* AdSupport.framework */; };
+		CF81AE05179D35B80012B4C0 /* Social.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CF81AE04179D35B80012B4C0 /* Social.framework */; };
+		CF81AE07179D35BD0012B4C0 /* StoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CF81AE06179D35BD0012B4C0 /* StoreKit.framework */; };
+		CF81AE0B179D360B0012B4C0 /* GTMOAuth2ViewTouch.xib in Resources */ = {isa = PBXBuildFile; fileRef = CF81AE08179D360B0012B4C0 /* GTMOAuth2ViewTouch.xib */; };
+		CF81AE10179D39FD0012B4C0 /* libsqlite3.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = CF81AE0F179D39FD0012B4C0 /* libsqlite3.dylib */; };
+		CF81AE12179D3A020012B4C0 /* Accounts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CF81AE11179D3A020012B4C0 /* Accounts.framework */; };
+		CF81AE15179D3AF80012B4C0 /* ShareKitDemoConfigurator.m in Sources */ = {isa = PBXBuildFile; fileRef = CF81AE14179D3AF80012B4C0 /* ShareKitDemoConfigurator.m */; };
+		CF8B49DC1779C069003768AD /* ipad_bg_scroll.png in Resources */ = {isa = PBXBuildFile; fileRef = CF8B49D21779C069003768AD /* ipad_bg_scroll.png */; };
+		CF8B49DD1779C069003768AD /* ipad_bg_scroll@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = CF8B49D31779C069003768AD /* ipad_bg_scroll@2x.png */; };
+		CF8B49DE1779C069003768AD /* ipad_bottom_line.png in Resources */ = {isa = PBXBuildFile; fileRef = CF8B49D41779C069003768AD /* ipad_bottom_line.png */; };
+		CF8B49DF1779C069003768AD /* ipad_bottom_line@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = CF8B49D51779C069003768AD /* ipad_bottom_line@2x.png */; };
+		CF8B49E01779C069003768AD /* ipad_bottom_panel.png in Resources */ = {isa = PBXBuildFile; fileRef = CF8B49D61779C069003768AD /* ipad_bottom_panel.png */; };
+		CF8B49E11779C069003768AD /* ipad_bottom_panel@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = CF8B49D71779C069003768AD /* ipad_bottom_panel@2x.png */; };
+		CF8B49E21779C069003768AD /* ipad_bottom_text.png in Resources */ = {isa = PBXBuildFile; fileRef = CF8B49D81779C069003768AD /* ipad_bottom_text.png */; };
+		CF8B49E31779C069003768AD /* ipad_bottom_text@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = CF8B49D91779C069003768AD /* ipad_bottom_text@2x.png */; };
+		CF8B49E41779C069003768AD /* ipad_navbar.png in Resources */ = {isa = PBXBuildFile; fileRef = CF8B49DA1779C069003768AD /* ipad_navbar.png */; };
+		CF8B49E51779C069003768AD /* ipad_navbar@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = CF8B49DB1779C069003768AD /* ipad_navbar@2x.png */; };
+		CF8B49F01779C5A9003768AD /* ipad_minus_off.png in Resources */ = {isa = PBXBuildFile; fileRef = CF8B49E61779C5A9003768AD /* ipad_minus_off.png */; };
+		CF8B49F11779C5A9003768AD /* ipad_minus_off@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = CF8B49E71779C5A9003768AD /* ipad_minus_off@2x.png */; };
+		CF8B49F21779C5A9003768AD /* ipad_next_off.png in Resources */ = {isa = PBXBuildFile; fileRef = CF8B49E81779C5A9003768AD /* ipad_next_off.png */; };
+		CF8B49F31779C5A9003768AD /* ipad_next_off@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = CF8B49E91779C5A9003768AD /* ipad_next_off@2x.png */; };
+		CF8B49F41779C5A9003768AD /* ipad_play_off.png in Resources */ = {isa = PBXBuildFile; fileRef = CF8B49EA1779C5A9003768AD /* ipad_play_off.png */; };
+		CF8B49F51779C5A9003768AD /* ipad_play_off@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = CF8B49EB1779C5A9003768AD /* ipad_play_off@2x.png */; };
+		CF8B49F61779C5A9003768AD /* ipad_plus_off.png in Resources */ = {isa = PBXBuildFile; fileRef = CF8B49EC1779C5A9003768AD /* ipad_plus_off.png */; };
+		CF8B49F71779C5A9003768AD /* ipad_plus_off@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = CF8B49ED1779C5A9003768AD /* ipad_plus_off@2x.png */; };
+		CF8B49F81779C5A9003768AD /* ipad_prev_off.png in Resources */ = {isa = PBXBuildFile; fileRef = CF8B49EE1779C5A9003768AD /* ipad_prev_off.png */; };
+		CF8B49F91779C5A9003768AD /* ipad_prev_off@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = CF8B49EF1779C5A9003768AD /* ipad_prev_off@2x.png */; };
+		CF8B49FC1779C606003768AD /* ipad_pause_off.png in Resources */ = {isa = PBXBuildFile; fileRef = CF8B49FA1779C606003768AD /* ipad_pause_off.png */; };
+		CF8B49FD1779C606003768AD /* ipad_pause_off@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = CF8B49FB1779C606003768AD /* ipad_pause_off@2x.png */; };
+		CF8B4A001779CB06003768AD /* bg_right_menu.png in Resources */ = {isa = PBXBuildFile; fileRef = CF8B49FE1779CB06003768AD /* bg_right_menu.png */; };
+		CF8B4A011779CB06003768AD /* bg_right_menu@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = CF8B49FF1779CB06003768AD /* bg_right_menu@2x.png */; };
+		CF8B4A041779CC27003768AD /* ipad_flag.png in Resources */ = {isa = PBXBuildFile; fileRef = CF8B4A021779CC27003768AD /* ipad_flag.png */; };
+		CF8B4A051779CC27003768AD /* ipad_flag@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = CF8B4A031779CC27003768AD /* ipad_flag@2x.png */; };
+		CF8EBC9F174B773D00AEADF1 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = CF8EBC9E174B773D00AEADF1 /* Default-568h@2x.png */; };
+		CF8FFB4B17464E3300B7F406 /* MDAudioFile.m in Sources */ = {isa = PBXBuildFile; fileRef = CF8FFB4617464E3300B7F406 /* MDAudioFile.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		CF8FFB4C17464E3300B7F406 /* MDAudioPlayerController.m in Sources */ = {isa = PBXBuildFile; fileRef = CF8FFB4817464E3300B7F406 /* MDAudioPlayerController.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		CF8FFB4D17464E3300B7F406 /* MDAudioPlayerTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = CF8FFB4A17464E3300B7F406 /* MDAudioPlayerTableViewCell.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		CF8FFB6017464E3F00B7F406 /* AudioPlayerAlbumInfo.png in Resources */ = {isa = PBXBuildFile; fileRef = CF8FFB4F17464E3F00B7F406 /* AudioPlayerAlbumInfo.png */; };
+		CF8FFB6117464E3F00B7F406 /* AudioPlayerBarBackground.png in Resources */ = {isa = PBXBuildFile; fileRef = CF8FFB5017464E3F00B7F406 /* AudioPlayerBarBackground.png */; };
+		CF8FFB6217464E3F00B7F406 /* AudioPlayerNextTrack.png in Resources */ = {isa = PBXBuildFile; fileRef = CF8FFB5117464E3F00B7F406 /* AudioPlayerNextTrack.png */; };
+		CF8FFB6317464E3F00B7F406 /* AudioPlayerNoArtwork.png in Resources */ = {isa = PBXBuildFile; fileRef = CF8FFB5217464E3F00B7F406 /* AudioPlayerNoArtwork.png */; };
+		CF8FFB6417464E3F00B7F406 /* AudioPlayerPause.png in Resources */ = {isa = PBXBuildFile; fileRef = CF8FFB5317464E3F00B7F406 /* AudioPlayerPause.png */; };
+		CF8FFB6517464E3F00B7F406 /* AudioPlayerPlay.png in Resources */ = {isa = PBXBuildFile; fileRef = CF8FFB5417464E3F00B7F406 /* AudioPlayerPlay.png */; };
+		CF8FFB6617464E3F00B7F406 /* AudioPlayerPrevTrack.png in Resources */ = {isa = PBXBuildFile; fileRef = CF8FFB5517464E3F00B7F406 /* AudioPlayerPrevTrack.png */; };
+		CF8FFB6717464E3F00B7F406 /* AudioPlayerRepeatOff.png in Resources */ = {isa = PBXBuildFile; fileRef = CF8FFB5617464E3F00B7F406 /* AudioPlayerRepeatOff.png */; };
+		CF8FFB6817464E3F00B7F406 /* AudioPlayerRepeatOn.png in Resources */ = {isa = PBXBuildFile; fileRef = CF8FFB5717464E3F00B7F406 /* AudioPlayerRepeatOn.png */; };
+		CF8FFB6917464E3F00B7F406 /* AudioPlayerRepeatOneOn.png in Resources */ = {isa = PBXBuildFile; fileRef = CF8FFB5817464E3F00B7F406 /* AudioPlayerRepeatOneOn.png */; };
+		CF8FFB6A17464E3F00B7F406 /* AudioPlayerScrubberKnob.png in Resources */ = {isa = PBXBuildFile; fileRef = CF8FFB5917464E3F00B7F406 /* AudioPlayerScrubberKnob.png */; };
+		CF8FFB6B17464E3F00B7F406 /* AudioPlayerScrubberLeft.png in Resources */ = {isa = PBXBuildFile; fileRef = CF8FFB5A17464E3F00B7F406 /* AudioPlayerScrubberLeft.png */; };
+		CF8FFB6C17464E3F00B7F406 /* AudioPlayerScrubberRight.png in Resources */ = {isa = PBXBuildFile; fileRef = CF8FFB5B17464E3F00B7F406 /* AudioPlayerScrubberRight.png */; };
+		CF8FFB6D17464E3F00B7F406 /* AudioPlayerShuffleOff.png in Resources */ = {isa = PBXBuildFile; fileRef = CF8FFB5C17464E3F00B7F406 /* AudioPlayerShuffleOff.png */; };
+		CF8FFB6E17464E3F00B7F406 /* AudioPlayerShuffleOn.png in Resources */ = {isa = PBXBuildFile; fileRef = CF8FFB5D17464E3F00B7F406 /* AudioPlayerShuffleOn.png */; };
+		CF8FFB6F17464E3F00B7F406 /* AudioPlayerTableBackground.png in Resources */ = {isa = PBXBuildFile; fileRef = CF8FFB5E17464E3F00B7F406 /* AudioPlayerTableBackground.png */; };
+		CF8FFB7017464E3F00B7F406 /* AudioPlayerVolumeKnob.png in Resources */ = {isa = PBXBuildFile; fileRef = CF8FFB5F17464E3F00B7F406 /* AudioPlayerVolumeKnob.png */; };
+		CF8FFB7217464E9C00B7F406 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CF8FFB7117464E9C00B7F406 /* AVFoundation.framework */; };
+		CF8FFB7417464EA700B7F406 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CF8FFB7317464EA700B7F406 /* AudioToolbox.framework */; };
+		CF95B215177B0F030078983C /* iphone5_flag@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = CF95B214177B0F030078983C /* iphone5_flag@2x.png */; };
+		CF95B217177B10850078983C /* icon57.png in Resources */ = {isa = PBXBuildFile; fileRef = CF95B216177B10850078983C /* icon57.png */; };
+		CF95B219177B108A0078983C /* icon72.png in Resources */ = {isa = PBXBuildFile; fileRef = CF95B218177B108A0078983C /* icon72.png */; };
+		CF95B21B177B108D0078983C /* icon144.png in Resources */ = {isa = PBXBuildFile; fileRef = CF95B21A177B108D0078983C /* icon144.png */; };
+		CFE026EE1779A8F800BB3184 /* sep.png in Resources */ = {isa = PBXBuildFile; fileRef = CFE026EC1779A8F800BB3184 /* sep.png */; };
+		CFE026EF1779A8F800BB3184 /* sep@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = CFE026ED1779A8F800BB3184 /* sep@2x.png */; };
+		CFE026FA1779AF9400BB3184 /* currentCell.png in Resources */ = {isa = PBXBuildFile; fileRef = CFE026F81779AF9400BB3184 /* currentCell.png */; };
+		CFE026FB1779AF9400BB3184 /* currentCell@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = CFE026F91779AF9400BB3184 /* currentCell@2x.png */; };
+		CFF2C1DB17788411002DC0EA /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = CFF2C1DA17788411002DC0EA /* Default@2x.png */; };
+		CFF2C1DD1778841E002DC0EA /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = CFF2C1DC1778841E002DC0EA /* Default.png */; };
+		CFF2C1DF1778842C002DC0EA /* Default-Portrait@2x~ipad.png in Resources */ = {isa = PBXBuildFile; fileRef = CFF2C1DE1778842C002DC0EA /* Default-Portrait@2x~ipad.png */; };
+		CFF2C1E11778842F002DC0EA /* Default-Portrait~ipad.png in Resources */ = {isa = PBXBuildFile; fileRef = CFF2C1E01778842F002DC0EA /* Default-Portrait~ipad.png */; };
+		CFF2C1E7177886AF002DC0EA /* navbar.png in Resources */ = {isa = PBXBuildFile; fileRef = CFF2C1E5177886AF002DC0EA /* navbar.png */; };
+		CFF2C1E8177886AF002DC0EA /* navbar@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = CFF2C1E6177886AF002DC0EA /* navbar@2x.png */; };
+		CFF2C1F1177889F3002DC0EA /* bg_scroll.png in Resources */ = {isa = PBXBuildFile; fileRef = CFF2C1E9177889F3002DC0EA /* bg_scroll.png */; };
+		CFF2C1F2177889F3002DC0EA /* bg_scroll@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = CFF2C1EA177889F3002DC0EA /* bg_scroll@2x.png */; };
+		CFF2C1F3177889F3002DC0EA /* bottom_line.png in Resources */ = {isa = PBXBuildFile; fileRef = CFF2C1EB177889F3002DC0EA /* bottom_line.png */; };
+		CFF2C1F4177889F3002DC0EA /* bottom_line@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = CFF2C1EC177889F3002DC0EA /* bottom_line@2x.png */; };
+		CFF2C1F5177889F3002DC0EA /* bottom_panel.png in Resources */ = {isa = PBXBuildFile; fileRef = CFF2C1ED177889F3002DC0EA /* bottom_panel.png */; };
+		CFF2C1F6177889F3002DC0EA /* bottom_panel@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = CFF2C1EE177889F3002DC0EA /* bottom_panel@2x.png */; };
+		CFF2C1F7177889F3002DC0EA /* bottom_text.png in Resources */ = {isa = PBXBuildFile; fileRef = CFF2C1EF177889F3002DC0EA /* bottom_text.png */; };
+		CFF2C1F8177889F3002DC0EA /* bottom_text@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = CFF2C1F0177889F3002DC0EA /* bottom_text@2x.png */; };
+		CFF2C1FF17788C87002DC0EA /* prev_off.png in Resources */ = {isa = PBXBuildFile; fileRef = CFF2C1FD17788C87002DC0EA /* prev_off.png */; };
+		CFF2C20017788C87002DC0EA /* prev_off@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = CFF2C1FE17788C87002DC0EA /* prev_off@2x.png */; };
+		CFF2C20917788DDD002DC0EA /* minus_off.png in Resources */ = {isa = PBXBuildFile; fileRef = CFF2C20117788DDD002DC0EA /* minus_off.png */; };
+		CFF2C20A17788DDD002DC0EA /* minus_off@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = CFF2C20217788DDD002DC0EA /* minus_off@2x.png */; };
+		CFF2C20B17788DDD002DC0EA /* next_off.png in Resources */ = {isa = PBXBuildFile; fileRef = CFF2C20317788DDD002DC0EA /* next_off.png */; };
+		CFF2C20C17788DDD002DC0EA /* next_off@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = CFF2C20417788DDD002DC0EA /* next_off@2x.png */; };
+		CFF2C20D17788DDD002DC0EA /* play_off.png in Resources */ = {isa = PBXBuildFile; fileRef = CFF2C20517788DDD002DC0EA /* play_off.png */; };
+		CFF2C20E17788DDD002DC0EA /* play_off@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = CFF2C20617788DDD002DC0EA /* play_off@2x.png */; };
+		CFF2C20F17788DDD002DC0EA /* plus_off.png in Resources */ = {isa = PBXBuildFile; fileRef = CFF2C20717788DDD002DC0EA /* plus_off.png */; };
+		CFF2C21017788DDD002DC0EA /* plus_off@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = CFF2C20817788DDD002DC0EA /* plus_off@2x.png */; };
+		CFF2C21317789190002DC0EA /* min.png in Resources */ = {isa = PBXBuildFile; fileRef = CFF2C21117789190002DC0EA /* min.png */; };
+		CFF2C21417789190002DC0EA /* min@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = CFF2C21217789190002DC0EA /* min@2x.png */; };
+		CFF2C217177891F9002DC0EA /* menu.png in Resources */ = {isa = PBXBuildFile; fileRef = CFF2C215177891F9002DC0EA /* menu.png */; };
+		CFF2C218177891F9002DC0EA /* menu@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = CFF2C216177891F9002DC0EA /* menu@2x.png */; };
+		CFF2C21B177894CC002DC0EA /* pause_off.png in Resources */ = {isa = PBXBuildFile; fileRef = CFF2C219177894CC002DC0EA /* pause_off.png */; };
+		CFF2C21C177894CC002DC0EA /* pause_off@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = CFF2C21A177894CC002DC0EA /* pause_off@2x.png */; };
+		CFF2C21F177895FA002DC0EA /* flag.png in Resources */ = {isa = PBXBuildFile; fileRef = CFF2C21D177895FA002DC0EA /* flag.png */; };
+		CFF2C220177895FA002DC0EA /* flag@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = CFF2C21E177895FA002DC0EA /* flag@2x.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CF81AD98179D34AA0012B4C0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CF81AD66179D34A80012B4C0 /* ShareKit.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 7AB5342E1552AADD00171BCE;
+			remoteInfo = "Static Library";
+		};
+		CF81AD9A179D34AA0012B4C0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CF81AD66179D34A80012B4C0 /* ShareKit.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 7AB5360F1552E26800171BCE;
+			remoteInfo = "Resource Bundle";
+		};
+		CF81AD9C179D34AA0012B4C0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CF81AD66179D34A80012B4C0 /* ShareKit.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 7A0F9246156BA2A0009CB40A;
+			remoteInfo = "Static Library Core";
+		};
+		CF81AD9E179D34AA0012B4C0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CF81AD66179D34A80012B4C0 /* ShareKit.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 7A1AFCC0160E11F90086B98A;
+			remoteInfo = SSKeyChain;
+		};
+		CF81ADA0179D34AA0012B4C0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CF81AD66179D34A80012B4C0 /* ShareKit.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 7A16F37E161340DD0019645D;
+			remoteInfo = OAuth;
+		};
+		CF81ADA2179D34AA0012B4C0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CF81AD66179D34A80012B4C0 /* ShareKit.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 7A1AFCD1160E123C0086B98A;
+			remoteInfo = Reachability;
+		};
+		CF81ADA4179D34AA0012B4C0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CF81AD66179D34A80012B4C0 /* ShareKit.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = AABBECD2162F0756009D46E4;
+			remoteInfo = Copy;
+		};
+		CF81ADA6179D34AA0012B4C0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CF81AD66179D34A80012B4C0 /* ShareKit.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = AABBECDB162F0779009D46E4;
+			remoteInfo = Email;
+		};
+		CF81ADA8179D34AA0012B4C0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CF81AD66179D34A80012B4C0 /* ShareKit.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = AABBECC9162F0719009D46E4;
+			remoteInfo = Logout;
+		};
+		CF81ADAA179D34AA0012B4C0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CF81AD66179D34A80012B4C0 /* ShareKit.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = AABBECE4162F07B4009D46E4;
+			remoteInfo = "Open in Safari";
+		};
+		CF81ADAC179D34AA0012B4C0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CF81AD66179D34A80012B4C0 /* ShareKit.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = AABBECBE162F063F009D46E4;
+			remoteInfo = Print;
+		};
+		CF81ADAE179D34AA0012B4C0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CF81AD66179D34A80012B4C0 /* ShareKit.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = AABBECED162F07DF009D46E4;
+			remoteInfo = "Save to Album";
+		};
+		CF81ADB0179D34AA0012B4C0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CF81AD66179D34A80012B4C0 /* ShareKit.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = AABBECF6162F080F009D46E4;
+			remoteInfo = "Text Message";
+		};
+		CF81ADB2179D34AA0012B4C0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CF81AD66179D34A80012B4C0 /* ShareKit.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = AABBED08162F0858009D46E4;
+			remoteInfo = Delicious;
+		};
+		CF81ADB4179D34AA0012B4C0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CF81AD66179D34A80012B4C0 /* ShareKit.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = AABBED11162F087F009D46E4;
+			remoteInfo = Diigo;
+		};
+		CF81ADB6179D34AA0012B4C0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CF81AD66179D34A80012B4C0 /* ShareKit.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = AABBED24162F08E6009D46E4;
+			remoteInfo = Evernote;
+		};
+		CF81ADB8179D34AA0012B4C0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CF81AD66179D34A80012B4C0 /* ShareKit.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 7A1AFCE2160E127B0086B98A;
+			remoteInfo = "Evernote SDK";
+		};
+		CF81ADBA179D34AA0012B4C0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CF81AD66179D34A80012B4C0 /* ShareKit.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = AABBED37162F0B65009D46E4;
+			remoteInfo = Facebook;
+		};
+		CF81ADBC179D34AA0012B4C0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CF81AD66179D34A80012B4C0 /* ShareKit.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = AABBED46162F0B86009D46E4;
+			remoteInfo = FoursquareV2;
+		};
+		CF81ADBE179D34AA0012B4C0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CF81AD66179D34A80012B4C0 /* ShareKit.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = AABBED50162F0BA7009D46E4;
+			remoteInfo = Flickr;
+		};
+		CF81ADC0179D34AA0012B4C0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CF81AD66179D34A80012B4C0 /* ShareKit.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 7A1AFD24160E13740086B98A;
+			remoteInfo = "Flickr SDK";
+		};
+		CF81ADC2179D34AA0012B4C0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CF81AD66179D34A80012B4C0 /* ShareKit.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 4503EBC0169104470057294C;
+			remoteInfo = "Google Plus";
+		};
+		CF81ADC4179D34AA0012B4C0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CF81AD66179D34A80012B4C0 /* ShareKit.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 7AA83BF91705E355009C483A;
+			remoteInfo = "Google Plus SDK";
+		};
+		CF81ADC6179D34AA0012B4C0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CF81AD66179D34A80012B4C0 /* ShareKit.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 7A16F3C216134A890019645D;
+			remoteInfo = Instagram;
+		};
+		CF81ADC8179D34AA0012B4C0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CF81AD66179D34A80012B4C0 /* ShareKit.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = AABBED62162F0BE8009D46E4;
+			remoteInfo = Instapaper;
+		};
+		CF81ADCA179D34AA0012B4C0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CF81AD66179D34A80012B4C0 /* ShareKit.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = AABBECFF162F0835009D46E4;
+			remoteInfo = Kippt;
+		};
+		CF81ADCC179D34AA0012B4C0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CF81AD66179D34A80012B4C0 /* ShareKit.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = AABBED6B162F0C03009D46E4;
+			remoteInfo = LinkedIn;
+		};
+		CF81ADCE179D34AA0012B4C0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CF81AD66179D34A80012B4C0 /* ShareKit.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = AABBED74162F0C1A009D46E4;
+			remoteInfo = Pinboard;
+		};
+		CF81ADD0179D34AA0012B4C0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CF81AD66179D34A80012B4C0 /* ShareKit.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 949BCB8C172A993000D706D4;
+			remoteInfo = Buffer;
+		};
+		CF81ADD2179D34AA0012B4C0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CF81AD66179D34A80012B4C0 /* ShareKit.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 7AC2A3A016597F4C0089ABE8;
+			remoteInfo = "Sina Weibo";
+		};
+		CF81ADD4179D34AA0012B4C0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CF81AD66179D34A80012B4C0 /* ShareKit.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = AABBED86162F0C4D009D46E4;
+			remoteInfo = Tumbl;
+		};
+		CF81ADD6179D34AA0012B4C0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CF81AD66179D34A80012B4C0 /* ShareKit.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 7A1AFD3A160E14340086B98A;
+			remoteInfo = Twitter;
+		};
+		CF81ADD8179D34AA0012B4C0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CF81AD66179D34A80012B4C0 /* ShareKit.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = AABBED1B162F08A3009D46E4;
+			remoteInfo = VKontakte;
+		};
+		CF81ADDA179D34AA0012B4C0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CF81AD66179D34A80012B4C0 /* ShareKit.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 7AC2A3A016597F4C0089ABE8;
+			remoteInfo = "Sina Weibo";
+		};
+		CF81ADDC179D34AA0012B4C0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CF81AD66179D34A80012B4C0 /* ShareKit.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 7A49DBC316BC193E004B7E78;
+			remoteInfo = Readability;
+		};
+		CF81ADDE179D34AA0012B4C0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CF81AD66179D34A80012B4C0 /* ShareKit.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 7A203D0A16EB7DA200421995;
+			remoteInfo = Hatena;
+		};
+		CF81ADE0179D34AA0012B4C0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CF81AD66179D34A80012B4C0 /* ShareKit.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 7AAE8CA516EB960500429C51;
+			remoteInfo = Plurk;
+		};
+		CF81ADE2179D34AA0012B4C0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CF81AD66179D34A80012B4C0 /* ShareKit.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = DE334C2116F3339300FF692B;
+			remoteInfo = Dropbox;
+		};
+		CF81ADE4179D34AA0012B4C0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CF81AD66179D34A80012B4C0 /* ShareKit.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = DE334CCF16F34BDD00FF692B;
+			remoteInfo = "Dropbox SDK";
+		};
+		CF81ADE6179D34AA0012B4C0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CF81AD66179D34A80012B4C0 /* ShareKit.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 7AECF322171D5194000722FA;
+			remoteInfo = YouTube;
+		};
+		CF81ADE8179D34AA0012B4C0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CF81AD66179D34A80012B4C0 /* ShareKit.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 7AECF32C171D51C3000722FA;
+			remoteInfo = "YouTube SDK";
+		};
+		CF81ADEA179D34AA0012B4C0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CF81AD66179D34A80012B4C0 /* ShareKit.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 7A4E465A173E2B2900CCEE80;
+			remoteInfo = Pocket;
+		};
+		CF81ADEC179D34AA0012B4C0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CF81AD66179D34A80012B4C0 /* ShareKit.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 7A4E4663173E2C2500CCEE80;
+			remoteInfo = "Pocket SDK";
+		};
+		CF81ADEE179D34EB0012B4C0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CF81AD66179D34A80012B4C0 /* ShareKit.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = 7AB5342D1552AADD00171BCE;
+			remoteInfo = "Static Library";
+		};
+		CF81ADF0179D34F20012B4C0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CF81AD66179D34A80012B4C0 /* ShareKit.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = 7AB5360E1552E26800171BCE;
+			remoteInfo = "Resource Bundle";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		27407EEB14D8787E0035FD7F /* iPad.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = iPad.storyboard; sourceTree = "<group>"; };
+		2750E76C14CDB0DF007727A0 /* guideconstitution.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = guideconstitution.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2750E77014CDB0DF007727A0 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		2750E77214CDB0DF007727A0 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		2750E77414CDB0DF007727A0 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		2750E77814CDB0DF007727A0 /* guideconstitution-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "guideconstitution-Info.plist"; sourceTree = "<group>"; };
+		2750E77A14CDB0DF007727A0 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		2750E77C14CDB0DF007727A0 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		2750E77E14CDB0DF007727A0 /* guideconstitution-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "guideconstitution-Prefix.pch"; sourceTree = "<group>"; };
+		2750E77F14CDB0DF007727A0 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		2750E78014CDB0DF007727A0 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		2750E78714CDB114007727A0 /* iPhone.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = iPhone.storyboard; sourceTree = "<group>"; };
+		2750E79214CDB93A007727A0 /* MenuViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MenuViewController.h; sourceTree = "<group>"; };
+		2750E79314CDB93A007727A0 /* MenuViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MenuViewController.m; sourceTree = "<group>"; };
+		2750E79514CDB959007727A0 /* FirstTopViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FirstTopViewController.h; sourceTree = "<group>"; };
+		2750E79614CDB959007727A0 /* FirstTopViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FirstTopViewController.m; sourceTree = "<group>"; };
+		2750E7AA14CF1306007727A0 /* ECSlidingViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ECSlidingViewController.h; sourceTree = "<group>"; };
+		2750E7AB14CF1306007727A0 /* ECSlidingViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ECSlidingViewController.m; sourceTree = "<group>"; };
+		2750E7AD14CF1306007727A0 /* UIImage+ImageWithUIView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+ImageWithUIView.m"; sourceTree = "<group>"; };
+		279E158D14D737F60028A9EE /* UIImage+ImageWithUIView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+ImageWithUIView.h"; sourceTree = "<group>"; };
+		27FC94DE14D0C14E0000B18C /* InitialSlidingViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = InitialSlidingViewController.h; sourceTree = "<group>"; };
+		27FC94DF14D0C14E0000B18C /* InitialSlidingViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = InitialSlidingViewController.m; sourceTree = "<group>"; };
+		27FC94E214D105C60000B18C /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		CF1C8490175F2D2F00372658 /* Конституция Российской Федерации. Вступление.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Конституция Российской Федерации. Вступление.mp3"; sourceTree = "<group>"; };
+		CF1C8492175F2D9700372658 /* Раздел 1. Глава 1. - Основы конституционного строя. Статья 1.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Раздел 1. Глава 1. - Основы конституционного строя. Статья 1.mp3"; sourceTree = "<group>"; };
+		CF1C8493175F2D9700372658 /* Статья 2.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Статья 2.mp3"; sourceTree = "<group>"; };
+		CF1C8494175F2D9700372658 /* Статья 3.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Статья 3.mp3"; sourceTree = "<group>"; };
+		CF1C8495175F2D9700372658 /* Статья 4.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Статья 4.mp3"; sourceTree = "<group>"; };
+		CF1C8496175F2D9700372658 /* Статья 5.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Статья 5.mp3"; sourceTree = "<group>"; };
+		CF1C8497175F2D9700372658 /* Статья 6.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Статья 6.mp3"; sourceTree = "<group>"; };
+		CF1C8498175F2D9700372658 /* Статья 7.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Статья 7.mp3"; sourceTree = "<group>"; };
+		CF1C8499175F2D9700372658 /* Статья 8.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Статья 8.mp3"; sourceTree = "<group>"; };
+		CF1C849A175F2D9700372658 /* Статья 9.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Статья 9.mp3"; sourceTree = "<group>"; };
+		CF1C849B175F2D9700372658 /* Статья 10.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Статья 10.mp3"; sourceTree = "<group>"; };
+		CF1C849C175F2D9700372658 /* Статья 11.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Статья 11.mp3"; sourceTree = "<group>"; };
+		CF1C849D175F2D9700372658 /* Статья 12.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Статья 12.mp3"; sourceTree = "<group>"; };
+		CF1C849E175F2D9700372658 /* Статья 13.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Статья 13.mp3"; sourceTree = "<group>"; };
+		CF1C849F175F2D9700372658 /* Статья 14.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Статья 14.mp3"; sourceTree = "<group>"; };
+		CF1C84A0175F2D9700372658 /* Статья 15.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Статья 15.mp3"; sourceTree = "<group>"; };
+		CF1C84A1175F2D9700372658 /* Статья 16.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Статья 16.mp3"; sourceTree = "<group>"; };
+		CF1C84B2175F4DD300372658 /* Глава 2.- Права и свободы человека и гражданина. Статья 17.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Глава 2.- Права и свободы человека и гражданина. Статья 17.mp3"; sourceTree = "<group>"; };
+		CF1C84B3175F4DD300372658 /* Статья 18.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Статья 18.mp3"; sourceTree = "<group>"; };
+		CF1C84B4175F4DD300372658 /* Статья 19.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Статья 19.mp3"; sourceTree = "<group>"; };
+		CF1C84B5175F4DD300372658 /* Статья 20.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Статья 20.mp3"; sourceTree = "<group>"; };
+		CF1C84B6175F4DD300372658 /* Статья 21.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Статья 21.mp3"; sourceTree = "<group>"; };
+		CF1C84B7175F4DD300372658 /* Статья 22.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Статья 22.mp3"; sourceTree = "<group>"; };
+		CF1C84B8175F4DD300372658 /* Статья 23.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Статья 23.mp3"; sourceTree = "<group>"; };
+		CF1C84B9175F4DD300372658 /* Статья 24.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Статья 24.mp3"; sourceTree = "<group>"; };
+		CF1C84BA175F4DD300372658 /* Статья 25.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Статья 25.mp3"; sourceTree = "<group>"; };
+		CF1C84BB175F4DD300372658 /* Статья 26.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Статья 26.mp3"; sourceTree = "<group>"; };
+		CF1C84BC175F4DD300372658 /* Статья 27.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Статья 27.mp3"; sourceTree = "<group>"; };
+		CF1C84BD175F4DD300372658 /* Статья 28.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Статья 28.mp3"; sourceTree = "<group>"; };
+		CF1C84BE175F4DD300372658 /* Статья 29.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Статья 29.mp3"; sourceTree = "<group>"; };
+		CF1C84BF175F4DD300372658 /* Статья 30.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Статья 30.mp3"; sourceTree = "<group>"; };
+		CF1C84C0175F4DD300372658 /* Статья 31.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Статья 31.mp3"; sourceTree = "<group>"; };
+		CF1C84C1175F4DD300372658 /* Статья 32.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Статья 32.mp3"; sourceTree = "<group>"; };
+		CF1C84C2175F4DD300372658 /* Статья 33.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Статья 33.mp3"; sourceTree = "<group>"; };
+		CF1C84C3175F4DD300372658 /* Статья 34.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Статья 34.mp3"; sourceTree = "<group>"; };
+		CF1C84C4175F4DD300372658 /* Статья 35.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Статья 35.mp3"; sourceTree = "<group>"; };
+		CF1C84C5175F4DD300372658 /* Статья 36.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Статья 36.mp3"; sourceTree = "<group>"; };
+		CF1C84C6175F4DD300372658 /* Статья 37.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Статья 37.mp3"; sourceTree = "<group>"; };
+		CF1C84C7175F4DD300372658 /* Статья 38.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Статья 38.mp3"; sourceTree = "<group>"; };
+		CF1C84C8175F4DD300372658 /* Статья 39.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Статья 39.mp3"; sourceTree = "<group>"; };
+		CF1C84C9175F4DD300372658 /* Статья 40.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Статья 40.mp3"; sourceTree = "<group>"; };
+		CF1C84CA175F4DD300372658 /* Статья 41.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Статья 41.mp3"; sourceTree = "<group>"; };
+		CF1C84CB175F4DD300372658 /* Статья 42.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Статья 42.mp3"; sourceTree = "<group>"; };
+		CF1C84CC175F4DD300372658 /* Статья 43.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Статья 43.mp3"; sourceTree = "<group>"; };
+		CF1C84CD175F4DD300372658 /* Статья 44.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Статья 44.mp3"; sourceTree = "<group>"; };
+		CF1C84CE175F4DD300372658 /* Статья 45.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Статья 45.mp3"; sourceTree = "<group>"; };
+		CF1C84CF175F4DD300372658 /* Статья 46.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Статья 46.mp3"; sourceTree = "<group>"; };
+		CF1C84D0175F4DD300372658 /* Статья 47.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Статья 47.mp3"; sourceTree = "<group>"; };
+		CF1C84D1175F4DD300372658 /* Статья 48.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Статья 48.mp3"; sourceTree = "<group>"; };
+		CF1C84D2175F4DD300372658 /* Статья 49.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Статья 49.mp3"; sourceTree = "<group>"; };
+		CF1C84D3175F4DD300372658 /* Статья 50.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Статья 50.mp3"; sourceTree = "<group>"; };
+		CF1C84D4175F4DD300372658 /* Статья 51.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Статья 51.mp3"; sourceTree = "<group>"; };
+		CF1C84D5175F4DD300372658 /* Статья 52.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Статья 52.mp3"; sourceTree = "<group>"; };
+		CF1C84D6175F4DD300372658 /* Статья 53.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Статья 53.mp3"; sourceTree = "<group>"; };
+		CF1C84D7175F4DD300372658 /* Статья 54.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Статья 54.mp3"; sourceTree = "<group>"; };
+		CF1C84D8175F4DD300372658 /* Статья 55.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Статья 55.mp3"; sourceTree = "<group>"; };
+		CF1C84D9175F4DD300372658 /* Статья 56.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Статья 56.mp3"; sourceTree = "<group>"; };
+		CF1C84DA175F4DD300372658 /* Статья 57.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Статья 57.mp3"; sourceTree = "<group>"; };
+		CF1C84DB175F4DD400372658 /* Статья 58.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Статья 58.mp3"; sourceTree = "<group>"; };
+		CF1C84DC175F4DD400372658 /* Статья 59.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Статья 59.mp3"; sourceTree = "<group>"; };
+		CF1C84DD175F4DD400372658 /* Статья 60.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Статья 60.mp3"; sourceTree = "<group>"; };
+		CF1C84DE175F4DD400372658 /* Статья 61.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Статья 61.mp3"; sourceTree = "<group>"; };
+		CF1C84DF175F4DD400372658 /* Статья 62.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Статья 62.mp3"; sourceTree = "<group>"; };
+		CF1C84E0175F4DD400372658 /* Статья 63.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Статья 63.mp3"; sourceTree = "<group>"; };
+		CF1C84E1175F4DD400372658 /* Статья 64.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Статья 64.mp3"; sourceTree = "<group>"; };
+		CF1C8512175F4EA800372658 /* Глава 3.- Федеративное устройство. Статья 65.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Глава 3.- Федеративное устройство. Статья 65.mp3"; sourceTree = "<group>"; };
+		CF1C8513175F4EA800372658 /* Статья 66.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Статья 66.mp3"; sourceTree = "<group>"; };
+		CF1C8514175F4EA800372658 /* Статья 67.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Статья 67.mp3"; sourceTree = "<group>"; };
+		CF1C8515175F4EA800372658 /* Статья 68.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Статья 68.mp3"; sourceTree = "<group>"; };
+		CF1C8516175F4EA800372658 /* Статья 69.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Статья 69.mp3"; sourceTree = "<group>"; };
+		CF1C8517175F4EA800372658 /* Статья 70.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Статья 70.mp3"; sourceTree = "<group>"; };
+		CF1C8518175F4EA800372658 /* Статья 71.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Статья 71.mp3"; sourceTree = "<group>"; };
+		CF1C8519175F4EA800372658 /* Статья 72.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Статья 72.mp3"; sourceTree = "<group>"; };
+		CF1C851A175F4EA800372658 /* Статья 73.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Статья 73.mp3"; sourceTree = "<group>"; };
+		CF1C851B175F4EA800372658 /* Статья 74.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Статья 74.mp3"; sourceTree = "<group>"; };
+		CF1C851C175F4EA800372658 /* Статья 75.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Статья 75.mp3"; sourceTree = "<group>"; };
+		CF1C851D175F4EA800372658 /* Статья 76.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Статья 76.mp3"; sourceTree = "<group>"; };
+		CF1C851E175F4EA800372658 /* Статья 77.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Статья 77.mp3"; sourceTree = "<group>"; };
+		CF1C851F175F4EA800372658 /* Статья 78.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Статья 78.mp3"; sourceTree = "<group>"; };
+		CF1C8520175F4EA800372658 /* Статья 79.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Статья 79.mp3"; sourceTree = "<group>"; };
+		CF1C8530175F4F1B00372658 /* Глава 4.- Президент Российской Федерации. Статья 80.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Глава 4.- Президент Российской Федерации. Статья 80.mp3"; sourceTree = "<group>"; };
+		CF1C8531175F4F1B00372658 /* Статья 81.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Статья 81.mp3"; sourceTree = "<group>"; };
+		CF1C8532175F4F1B00372658 /* Статья 82.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Статья 82.mp3"; sourceTree = "<group>"; };
+		CF1C8533175F4F1B00372658 /* Статья 83.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Статья 83.mp3"; sourceTree = "<group>"; };
+		CF1C8534175F4F1B00372658 /* Статья 84.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Статья 84.mp3"; sourceTree = "<group>"; };
+		CF1C8535175F4F1B00372658 /* Статья 85.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Статья 85.mp3"; sourceTree = "<group>"; };
+		CF1C8536175F4F1B00372658 /* Статья 86.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Статья 86.mp3"; sourceTree = "<group>"; };
+		CF1C8537175F4F1B00372658 /* Статья 87.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Статья 87.mp3"; sourceTree = "<group>"; };
+		CF1C8538175F4F1B00372658 /* Статья 88.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Статья 88.mp3"; sourceTree = "<group>"; };
+		CF1C8539175F4F1B00372658 /* Статья 89.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Статья 89.mp3"; sourceTree = "<group>"; };
+		CF1C853A175F4F1B00372658 /* Статья 90.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Статья 90.mp3"; sourceTree = "<group>"; };
+		CF1C853B175F4F1B00372658 /* Статья 91.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Статья 91.mp3"; sourceTree = "<group>"; };
+		CF1C853C175F4F1B00372658 /* Статья 92.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Статья 92.mp3"; sourceTree = "<group>"; };
+		CF1C853D175F4F1B00372658 /* Статья 93.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Статья 93.mp3"; sourceTree = "<group>"; };
+		CF1C854C175F4FBD00372658 /* Глава 5.- Федеральное собрание. Статья 94.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Глава 5.- Федеральное собрание. Статья 94.mp3"; sourceTree = "<group>"; };
+		CF1C854D175F4FBD00372658 /* Статья 95.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Статья 95.mp3"; sourceTree = "<group>"; };
+		CF1C854E175F4FBD00372658 /* Статья 96.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Статья 96.mp3"; sourceTree = "<group>"; };
+		CF1C854F175F4FBD00372658 /* Статья 97.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Статья 97.mp3"; sourceTree = "<group>"; };
+		CF1C8550175F4FBD00372658 /* Статья 98.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Статья 98.mp3"; sourceTree = "<group>"; };
+		CF1C8551175F4FBD00372658 /* Статья 99.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Статья 99.mp3"; sourceTree = "<group>"; };
+		CF1C8552175F4FBD00372658 /* Статья 100.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Статья 100.mp3"; sourceTree = "<group>"; };
+		CF1C8553175F4FBD00372658 /* Статья 101.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Статья 101.mp3"; sourceTree = "<group>"; };
+		CF1C8554175F4FBD00372658 /* Статья 102.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Статья 102.mp3"; sourceTree = "<group>"; };
+		CF1C8555175F4FBD00372658 /* Статья 103.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Статья 103.mp3"; sourceTree = "<group>"; };
+		CF1C8556175F4FBD00372658 /* Статья 104.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Статья 104.mp3"; sourceTree = "<group>"; };
+		CF1C8557175F4FBD00372658 /* Статья 105.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Статья 105.mp3"; sourceTree = "<group>"; };
+		CF1C8558175F4FBD00372658 /* Статья 106.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Статья 106.mp3"; sourceTree = "<group>"; };
+		CF1C8559175F4FBD00372658 /* Статья 107.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Статья 107.mp3"; sourceTree = "<group>"; };
+		CF1C855A175F4FBD00372658 /* Статья 108.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Статья 108.mp3"; sourceTree = "<group>"; };
+		CF1C855B175F4FBD00372658 /* Статья 109.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Статья 109.mp3"; sourceTree = "<group>"; };
+		CF1C856C175F50D100372658 /* Глава 6.- Правительство Российской Федерации. Статья 110.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Глава 6.- Правительство Российской Федерации. Статья 110.mp3"; sourceTree = "<group>"; };
+		CF1C856D175F50D100372658 /* Глава 7.- Судебная власть. Статья 118.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Глава 7.- Судебная власть. Статья 118.mp3"; sourceTree = "<group>"; };
+		CF1C856E175F50D100372658 /* Статья 111.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Статья 111.mp3"; sourceTree = "<group>"; };
+		CF1C856F175F50D100372658 /* Статья 112.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Статья 112.mp3"; sourceTree = "<group>"; };
+		CF1C8570175F50D100372658 /* Статья 113.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Статья 113.mp3"; sourceTree = "<group>"; };
+		CF1C8571175F50D200372658 /* Статья 114.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Статья 114.mp3"; sourceTree = "<group>"; };
+		CF1C8572175F50D200372658 /* Статья 115.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Статья 115.mp3"; sourceTree = "<group>"; };
+		CF1C8573175F50D200372658 /* Статья 116.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Статья 116.mp3"; sourceTree = "<group>"; };
+		CF1C8574175F50D200372658 /* Статья 117.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Статья 117.mp3"; sourceTree = "<group>"; };
+		CF1C8575175F50D200372658 /* Статья 119.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Статья 119.mp3"; sourceTree = "<group>"; };
+		CF1C8576175F50D200372658 /* Статья 120.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Статья 120.mp3"; sourceTree = "<group>"; };
+		CF1C8577175F50D200372658 /* Статья 121.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Статья 121.mp3"; sourceTree = "<group>"; };
+		CF1C8578175F50D200372658 /* Статья 122.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Статья 122.mp3"; sourceTree = "<group>"; };
+		CF1C8579175F50D200372658 /* Статья 123.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Статья 123.mp3"; sourceTree = "<group>"; };
+		CF1C857A175F50D200372658 /* Статья 124.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Статья 124.mp3"; sourceTree = "<group>"; };
+		CF1C857B175F50D200372658 /* Статья 125.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Статья 125.mp3"; sourceTree = "<group>"; };
+		CF1C857C175F50D200372658 /* Статья 126.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Статья 126.mp3"; sourceTree = "<group>"; };
+		CF1C857D175F50D200372658 /* Статья 127.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Статья 127.mp3"; sourceTree = "<group>"; };
+		CF1C857E175F50D200372658 /* Статья 128.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Статья 128.mp3"; sourceTree = "<group>"; };
+		CF1C857F175F50D200372658 /* Статья 129.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Статья 129.mp3"; sourceTree = "<group>"; };
+		CF1C8594175F50E300372658 /* Глава 8.- Местное самоуправление.  Статья 130.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Глава 8.- Местное самоуправление.  Статья 130.mp3"; sourceTree = "<group>"; };
+		CF1C8595175F50E300372658 /* Глава 9.- Конституционные поправки и пересмотр конституции. Статья 134.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Глава 9.- Конституционные поправки и пересмотр конституции. Статья 134.mp3"; sourceTree = "<group>"; };
+		CF1C8596175F50E300372658 /* Раздел 2- Заключительное и переходное положение.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Раздел 2- Заключительное и переходное положение.mp3"; sourceTree = "<group>"; };
+		CF1C8597175F50E300372658 /* Статья 131.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Статья 131.mp3"; sourceTree = "<group>"; };
+		CF1C8598175F50E300372658 /* Статья 132.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Статья 132.mp3"; sourceTree = "<group>"; };
+		CF1C8599175F50E300372658 /* Статья 133.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Статья 133.mp3"; sourceTree = "<group>"; };
+		CF1C859A175F50E300372658 /* Статья 135.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Статья 135.mp3"; sourceTree = "<group>"; };
+		CF1C859B175F50E300372658 /* Статья 136.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Статья 136.mp3"; sourceTree = "<group>"; };
+		CF1C859C175F50E300372658 /* Статья 137.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Статья 137.mp3"; sourceTree = "<group>"; };
+		CF218866179E3B0800D99149 /* sh.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = sh.png; sourceTree = "<group>"; };
+		CF218867179E3B0800D99149 /* sh@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "sh@2x.png"; sourceTree = "<group>"; };
+		CF218893179E3C4A00D99149 /* LinksTableController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LinksTableController.h; sourceTree = "<group>"; };
+		CF218894179E3C4A00D99149 /* LinksTableController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LinksTableController.m; sourceTree = "<group>"; };
+		CF218896179E405F00D99149 /* BrowserController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BrowserController.h; sourceTree = "<group>"; };
+		CF218897179E405F00D99149 /* BrowserController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BrowserController.m; sourceTree = "<group>"; };
+		CF607AD3176F1DA600071529 /* icon114.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon114.png; sourceTree = "<group>"; };
+		CF6192AE177C686C0023F074 /* Flurry.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Flurry.h; sourceTree = "<group>"; };
+		CF6192AF177C686C0023F074 /* libFlurry_4.2.2.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libFlurry_4.2.2.a; sourceTree = "<group>"; };
+		CF6192B9177C6D160023F074 /* Reachability.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Reachability.h; sourceTree = "<group>"; };
+		CF6192BA177C6D160023F074 /* Reachability.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Reachability.m; sourceTree = "<group>"; };
+		CF6192BC177C6DAC0023F074 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		CF6192C0177C72230023F074 /* myCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = myCell.xib; sourceTree = "<group>"; };
+		CF6192C2177C722F0023F074 /* myCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = myCell.h; sourceTree = "<group>"; };
+		CF6192C3177C722F0023F074 /* myCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = myCell.m; sourceTree = "<group>"; };
+		CF7ED04E17BA5BF700EDD3C1 /* i.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = i.png; sourceTree = "<group>"; };
+		CF7ED04F17BA5BF700EDD3C1 /* i@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "i@2x.png"; sourceTree = "<group>"; };
+		CF7ED05217BA5E1000EDD3C1 /* in@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "in@2x.png"; sourceTree = "<group>"; };
+		CF7ED05317BA5E1000EDD3C1 /* in.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = in.png; sourceTree = "<group>"; };
+		CF81AD66179D34A80012B4C0 /* ShareKit.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = ShareKit.xcodeproj; path = ../sharekit_2/Submodules/ShareKit/ShareKit.xcodeproj; sourceTree = "<group>"; };
+		CF81ADF4179D35780012B4C0 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		CF81ADF6179D357E0012B4C0 /* MessageUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MessageUI.framework; path = System/Library/Frameworks/MessageUI.framework; sourceTree = SDKROOT; };
+		CF81ADF8179D35840012B4C0 /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = System/Library/Frameworks/MobileCoreServices.framework; sourceTree = SDKROOT; };
+		CF81ADFA179D358A0012B4C0 /* CoreMedia.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMedia.framework; path = System/Library/Frameworks/CoreMedia.framework; sourceTree = SDKROOT; };
+		CF81ADFC179D35950012B4C0 /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
+		CF81ADFE179D359A0012B4C0 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		CF81AE00179D35AD0012B4C0 /* Twitter.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Twitter.framework; path = System/Library/Frameworks/Twitter.framework; sourceTree = SDKROOT; };
+		CF81AE02179D35B20012B4C0 /* AdSupport.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AdSupport.framework; path = System/Library/Frameworks/AdSupport.framework; sourceTree = SDKROOT; };
+		CF81AE04179D35B80012B4C0 /* Social.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Social.framework; path = System/Library/Frameworks/Social.framework; sourceTree = SDKROOT; };
+		CF81AE06179D35BD0012B4C0 /* StoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = StoreKit.framework; path = System/Library/Frameworks/StoreKit.framework; sourceTree = SDKROOT; };
+		CF81AE08179D360B0012B4C0 /* GTMOAuth2ViewTouch.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = GTMOAuth2ViewTouch.xib; path = "Submodules/google-api-objectivec/Source/OAuth2/Touch/GTMOAuth2ViewTouch.xib"; sourceTree = "<group>"; };
+		CF81AE0F179D39FD0012B4C0 /* libsqlite3.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libsqlite3.dylib; path = usr/lib/libsqlite3.dylib; sourceTree = SDKROOT; };
+		CF81AE11179D3A020012B4C0 /* Accounts.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Accounts.framework; path = System/Library/Frameworks/Accounts.framework; sourceTree = SDKROOT; };
+		CF81AE13179D3AF80012B4C0 /* ShareKitDemoConfigurator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ShareKitDemoConfigurator.h; sourceTree = "<group>"; };
+		CF81AE14179D3AF80012B4C0 /* ShareKitDemoConfigurator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ShareKitDemoConfigurator.m; sourceTree = "<group>"; };
+		CF8B49D21779C069003768AD /* ipad_bg_scroll.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ipad_bg_scroll.png; sourceTree = "<group>"; };
+		CF8B49D31779C069003768AD /* ipad_bg_scroll@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ipad_bg_scroll@2x.png"; sourceTree = "<group>"; };
+		CF8B49D41779C069003768AD /* ipad_bottom_line.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ipad_bottom_line.png; sourceTree = "<group>"; };
+		CF8B49D51779C069003768AD /* ipad_bottom_line@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ipad_bottom_line@2x.png"; sourceTree = "<group>"; };
+		CF8B49D61779C069003768AD /* ipad_bottom_panel.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ipad_bottom_panel.png; sourceTree = "<group>"; };
+		CF8B49D71779C069003768AD /* ipad_bottom_panel@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ipad_bottom_panel@2x.png"; sourceTree = "<group>"; };
+		CF8B49D81779C069003768AD /* ipad_bottom_text.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ipad_bottom_text.png; sourceTree = "<group>"; };
+		CF8B49D91779C069003768AD /* ipad_bottom_text@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ipad_bottom_text@2x.png"; sourceTree = "<group>"; };
+		CF8B49DA1779C069003768AD /* ipad_navbar.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ipad_navbar.png; sourceTree = "<group>"; };
+		CF8B49DB1779C069003768AD /* ipad_navbar@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ipad_navbar@2x.png"; sourceTree = "<group>"; };
+		CF8B49E61779C5A9003768AD /* ipad_minus_off.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ipad_minus_off.png; sourceTree = "<group>"; };
+		CF8B49E71779C5A9003768AD /* ipad_minus_off@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ipad_minus_off@2x.png"; sourceTree = "<group>"; };
+		CF8B49E81779C5A9003768AD /* ipad_next_off.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ipad_next_off.png; sourceTree = "<group>"; };
+		CF8B49E91779C5A9003768AD /* ipad_next_off@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ipad_next_off@2x.png"; sourceTree = "<group>"; };
+		CF8B49EA1779C5A9003768AD /* ipad_play_off.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ipad_play_off.png; sourceTree = "<group>"; };
+		CF8B49EB1779C5A9003768AD /* ipad_play_off@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ipad_play_off@2x.png"; sourceTree = "<group>"; };
+		CF8B49EC1779C5A9003768AD /* ipad_plus_off.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ipad_plus_off.png; sourceTree = "<group>"; };
+		CF8B49ED1779C5A9003768AD /* ipad_plus_off@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ipad_plus_off@2x.png"; sourceTree = "<group>"; };
+		CF8B49EE1779C5A9003768AD /* ipad_prev_off.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ipad_prev_off.png; sourceTree = "<group>"; };
+		CF8B49EF1779C5A9003768AD /* ipad_prev_off@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ipad_prev_off@2x.png"; sourceTree = "<group>"; };
+		CF8B49FA1779C606003768AD /* ipad_pause_off.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ipad_pause_off.png; sourceTree = "<group>"; };
+		CF8B49FB1779C606003768AD /* ipad_pause_off@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ipad_pause_off@2x.png"; sourceTree = "<group>"; };
+		CF8B49FE1779CB06003768AD /* bg_right_menu.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bg_right_menu.png; sourceTree = "<group>"; };
+		CF8B49FF1779CB06003768AD /* bg_right_menu@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "bg_right_menu@2x.png"; sourceTree = "<group>"; };
+		CF8B4A021779CC27003768AD /* ipad_flag.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ipad_flag.png; sourceTree = "<group>"; };
+		CF8B4A031779CC27003768AD /* ipad_flag@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ipad_flag@2x.png"; sourceTree = "<group>"; };
+		CF8EBC9E174B773D00AEADF1 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		CF8FFB4517464E3300B7F406 /* MDAudioFile.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MDAudioFile.h; sourceTree = "<group>"; };
+		CF8FFB4617464E3300B7F406 /* MDAudioFile.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MDAudioFile.m; sourceTree = "<group>"; };
+		CF8FFB4717464E3300B7F406 /* MDAudioPlayerController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MDAudioPlayerController.h; sourceTree = "<group>"; };
+		CF8FFB4817464E3300B7F406 /* MDAudioPlayerController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MDAudioPlayerController.m; sourceTree = "<group>"; };
+		CF8FFB4917464E3300B7F406 /* MDAudioPlayerTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MDAudioPlayerTableViewCell.h; sourceTree = "<group>"; };
+		CF8FFB4A17464E3300B7F406 /* MDAudioPlayerTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MDAudioPlayerTableViewCell.m; sourceTree = "<group>"; };
+		CF8FFB4F17464E3F00B7F406 /* AudioPlayerAlbumInfo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = AudioPlayerAlbumInfo.png; sourceTree = "<group>"; };
+		CF8FFB5017464E3F00B7F406 /* AudioPlayerBarBackground.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = AudioPlayerBarBackground.png; sourceTree = "<group>"; };
+		CF8FFB5117464E3F00B7F406 /* AudioPlayerNextTrack.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = AudioPlayerNextTrack.png; sourceTree = "<group>"; };
+		CF8FFB5217464E3F00B7F406 /* AudioPlayerNoArtwork.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = AudioPlayerNoArtwork.png; sourceTree = "<group>"; };
+		CF8FFB5317464E3F00B7F406 /* AudioPlayerPause.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = AudioPlayerPause.png; sourceTree = "<group>"; };
+		CF8FFB5417464E3F00B7F406 /* AudioPlayerPlay.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = AudioPlayerPlay.png; sourceTree = "<group>"; };
+		CF8FFB5517464E3F00B7F406 /* AudioPlayerPrevTrack.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = AudioPlayerPrevTrack.png; sourceTree = "<group>"; };
+		CF8FFB5617464E3F00B7F406 /* AudioPlayerRepeatOff.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = AudioPlayerRepeatOff.png; sourceTree = "<group>"; };
+		CF8FFB5717464E3F00B7F406 /* AudioPlayerRepeatOn.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = AudioPlayerRepeatOn.png; sourceTree = "<group>"; };
+		CF8FFB5817464E3F00B7F406 /* AudioPlayerRepeatOneOn.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = AudioPlayerRepeatOneOn.png; sourceTree = "<group>"; };
+		CF8FFB5917464E3F00B7F406 /* AudioPlayerScrubberKnob.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = AudioPlayerScrubberKnob.png; sourceTree = "<group>"; };
+		CF8FFB5A17464E3F00B7F406 /* AudioPlayerScrubberLeft.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = AudioPlayerScrubberLeft.png; sourceTree = "<group>"; };
+		CF8FFB5B17464E3F00B7F406 /* AudioPlayerScrubberRight.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = AudioPlayerScrubberRight.png; sourceTree = "<group>"; };
+		CF8FFB5C17464E3F00B7F406 /* AudioPlayerShuffleOff.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = AudioPlayerShuffleOff.png; sourceTree = "<group>"; };
+		CF8FFB5D17464E3F00B7F406 /* AudioPlayerShuffleOn.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = AudioPlayerShuffleOn.png; sourceTree = "<group>"; };
+		CF8FFB5E17464E3F00B7F406 /* AudioPlayerTableBackground.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = AudioPlayerTableBackground.png; sourceTree = "<group>"; };
+		CF8FFB5F17464E3F00B7F406 /* AudioPlayerVolumeKnob.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = AudioPlayerVolumeKnob.png; sourceTree = "<group>"; };
+		CF8FFB7117464E9C00B7F406 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		CF8FFB7317464EA700B7F406 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		CF95B214177B0F030078983C /* iphone5_flag@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "iphone5_flag@2x.png"; sourceTree = "<group>"; };
+		CF95B216177B10850078983C /* icon57.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon57.png; sourceTree = "<group>"; };
+		CF95B218177B108A0078983C /* icon72.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon72.png; sourceTree = "<group>"; };
+		CF95B21A177B108D0078983C /* icon144.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon144.png; sourceTree = "<group>"; };
+		CFE026EC1779A8F800BB3184 /* sep.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = sep.png; sourceTree = "<group>"; };
+		CFE026ED1779A8F800BB3184 /* sep@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "sep@2x.png"; sourceTree = "<group>"; };
+		CFE026F81779AF9400BB3184 /* currentCell.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = currentCell.png; sourceTree = "<group>"; };
+		CFE026F91779AF9400BB3184 /* currentCell@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "currentCell@2x.png"; sourceTree = "<group>"; };
+		CFF2C1DA17788411002DC0EA /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		CFF2C1DC1778841E002DC0EA /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		CFF2C1DE1778842C002DC0EA /* Default-Portrait@2x~ipad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-Portrait@2x~ipad.png"; sourceTree = "<group>"; };
+		CFF2C1E01778842F002DC0EA /* Default-Portrait~ipad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-Portrait~ipad.png"; sourceTree = "<group>"; };
+		CFF2C1E5177886AF002DC0EA /* navbar.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = navbar.png; sourceTree = "<group>"; };
+		CFF2C1E6177886AF002DC0EA /* navbar@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "navbar@2x.png"; sourceTree = "<group>"; };
+		CFF2C1E9177889F3002DC0EA /* bg_scroll.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bg_scroll.png; sourceTree = "<group>"; };
+		CFF2C1EA177889F3002DC0EA /* bg_scroll@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "bg_scroll@2x.png"; sourceTree = "<group>"; };
+		CFF2C1EB177889F3002DC0EA /* bottom_line.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bottom_line.png; sourceTree = "<group>"; };
+		CFF2C1EC177889F3002DC0EA /* bottom_line@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "bottom_line@2x.png"; sourceTree = "<group>"; };
+		CFF2C1ED177889F3002DC0EA /* bottom_panel.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bottom_panel.png; sourceTree = "<group>"; };
+		CFF2C1EE177889F3002DC0EA /* bottom_panel@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "bottom_panel@2x.png"; sourceTree = "<group>"; };
+		CFF2C1EF177889F3002DC0EA /* bottom_text.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bottom_text.png; sourceTree = "<group>"; };
+		CFF2C1F0177889F3002DC0EA /* bottom_text@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "bottom_text@2x.png"; sourceTree = "<group>"; };
+		CFF2C1FD17788C87002DC0EA /* prev_off.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = prev_off.png; sourceTree = "<group>"; };
+		CFF2C1FE17788C87002DC0EA /* prev_off@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "prev_off@2x.png"; sourceTree = "<group>"; };
+		CFF2C20117788DDD002DC0EA /* minus_off.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = minus_off.png; sourceTree = "<group>"; };
+		CFF2C20217788DDD002DC0EA /* minus_off@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "minus_off@2x.png"; sourceTree = "<group>"; };
+		CFF2C20317788DDD002DC0EA /* next_off.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = next_off.png; sourceTree = "<group>"; };
+		CFF2C20417788DDD002DC0EA /* next_off@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "next_off@2x.png"; sourceTree = "<group>"; };
+		CFF2C20517788DDD002DC0EA /* play_off.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = play_off.png; sourceTree = "<group>"; };
+		CFF2C20617788DDD002DC0EA /* play_off@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "play_off@2x.png"; sourceTree = "<group>"; };
+		CFF2C20717788DDD002DC0EA /* plus_off.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = plus_off.png; sourceTree = "<group>"; };
+		CFF2C20817788DDD002DC0EA /* plus_off@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "plus_off@2x.png"; sourceTree = "<group>"; };
+		CFF2C21117789190002DC0EA /* min.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = min.png; sourceTree = "<group>"; };
+		CFF2C21217789190002DC0EA /* min@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "min@2x.png"; sourceTree = "<group>"; };
+		CFF2C215177891F9002DC0EA /* menu.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = menu.png; sourceTree = "<group>"; };
+		CFF2C216177891F9002DC0EA /* menu@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "menu@2x.png"; sourceTree = "<group>"; };
+		CFF2C219177894CC002DC0EA /* pause_off.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = pause_off.png; sourceTree = "<group>"; };
+		CFF2C21A177894CC002DC0EA /* pause_off@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "pause_off@2x.png"; sourceTree = "<group>"; };
+		CFF2C21D177895FA002DC0EA /* flag.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = flag.png; sourceTree = "<group>"; };
+		CFF2C21E177895FA002DC0EA /* flag@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "flag@2x.png"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2750E76914CDB0DF007727A0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CF81AE12179D3A020012B4C0 /* Accounts.framework in Frameworks */,
+				CF81AE10179D39FD0012B4C0 /* libsqlite3.dylib in Frameworks */,
+				27FC94E314D105C60000B18C /* QuartzCore.framework in Frameworks */,
+				CF81AE07179D35BD0012B4C0 /* StoreKit.framework in Frameworks */,
+				CF81AE05179D35B80012B4C0 /* Social.framework in Frameworks */,
+				CF81AE03179D35B20012B4C0 /* AdSupport.framework in Frameworks */,
+				CF81AE01179D35AD0012B4C0 /* Twitter.framework in Frameworks */,
+				CF81ADFF179D359A0012B4C0 /* CoreLocation.framework in Frameworks */,
+				CF81ADFD179D35950012B4C0 /* CFNetwork.framework in Frameworks */,
+				CF8FFB7217464E9C00B7F406 /* AVFoundation.framework in Frameworks */,
+				CF81ADFB179D358A0012B4C0 /* CoreMedia.framework in Frameworks */,
+				CF81ADF9179D35840012B4C0 /* MobileCoreServices.framework in Frameworks */,
+				CF81ADF7179D357E0012B4C0 /* MessageUI.framework in Frameworks */,
+				CF81ADF5179D35780012B4C0 /* Security.framework in Frameworks */,
+				CF6192BD177C6DAC0023F074 /* SystemConfiguration.framework in Frameworks */,
+				CF81ADF2179D350A0012B4C0 /* libShareKit.a in Frameworks */,
+				CF8FFB7417464EA700B7F406 /* AudioToolbox.framework in Frameworks */,
+				2750E77114CDB0DF007727A0 /* UIKit.framework in Frameworks */,
+				2750E77314CDB0DF007727A0 /* Foundation.framework in Frameworks */,
+				2750E77514CDB0DF007727A0 /* CoreGraphics.framework in Frameworks */,
+				CF6192B0177C686C0023F074 /* libFlurry_4.2.2.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2750E76114CDB0DF007727A0 = {
+			isa = PBXGroup;
+			children = (
+				CF81AE11179D3A020012B4C0 /* Accounts.framework */,
+				CF81AE0F179D39FD0012B4C0 /* libsqlite3.dylib */,
+				CF81AE06179D35BD0012B4C0 /* StoreKit.framework */,
+				CF81AE04179D35B80012B4C0 /* Social.framework */,
+				CF81AE02179D35B20012B4C0 /* AdSupport.framework */,
+				CF81AE00179D35AD0012B4C0 /* Twitter.framework */,
+				CF81ADFE179D359A0012B4C0 /* CoreLocation.framework */,
+				CF81ADFC179D35950012B4C0 /* CFNetwork.framework */,
+				CF81ADFA179D358A0012B4C0 /* CoreMedia.framework */,
+				CF81ADF8179D35840012B4C0 /* MobileCoreServices.framework */,
+				CF81ADF6179D357E0012B4C0 /* MessageUI.framework */,
+				CF81ADF4179D35780012B4C0 /* Security.framework */,
+				CF81AD66179D34A80012B4C0 /* ShareKit.xcodeproj */,
+				CF6192BC177C6DAC0023F074 /* SystemConfiguration.framework */,
+				CF95B21A177B108D0078983C /* icon144.png */,
+				CF95B218177B108A0078983C /* icon72.png */,
+				CF95B216177B10850078983C /* icon57.png */,
+				CFF2C1E01778842F002DC0EA /* Default-Portrait~ipad.png */,
+				CFF2C1DE1778842C002DC0EA /* Default-Portrait@2x~ipad.png */,
+				CFF2C1DC1778841E002DC0EA /* Default.png */,
+				CFF2C1DA17788411002DC0EA /* Default@2x.png */,
+				CF607AD3176F1DA600071529 /* icon114.png */,
+				CF8EBC9E174B773D00AEADF1 /* Default-568h@2x.png */,
+				CF8FFB7317464EA700B7F406 /* AudioToolbox.framework */,
+				CF8FFB7117464E9C00B7F406 /* AVFoundation.framework */,
+				2750E77614CDB0DF007727A0 /* ECSlidingViewController */,
+				2750E76F14CDB0DF007727A0 /* Frameworks */,
+				2750E76D14CDB0DF007727A0 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		2750E76D14CDB0DF007727A0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2750E76C14CDB0DF007727A0 /* guideconstitution.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2750E76F14CDB0DF007727A0 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				2750E77414CDB0DF007727A0 /* CoreGraphics.framework */,
+				2750E77214CDB0DF007727A0 /* Foundation.framework */,
+				27FC94E214D105C60000B18C /* QuartzCore.framework */,
+				2750E77014CDB0DF007727A0 /* UIKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		2750E77614CDB0DF007727A0 /* ECSlidingViewController */ = {
+			isa = PBXGroup;
+			children = (
+				CF81AE0A179D360B0012B4C0 /* Resources - ShareKit Library */,
+				CF6192BF177C72040023F074 /* Models */,
+				CF6192BE177C72000023F074 /* Views */,
+				CFF2C1E31778868F002DC0EA /* Images */,
+				2750E78A14CDB1CF007727A0 /* Controllers */,
+				2750E77F14CDB0DF007727A0 /* AppDelegate.h */,
+				2750E78014CDB0DF007727A0 /* AppDelegate.m */,
+				2750E78914CDB1C7007727A0 /* Vendor */,
+				2750E77714CDB0DF007727A0 /* Supporting Files */,
+				2750E78714CDB114007727A0 /* iPhone.storyboard */,
+				27407EEB14D8787E0035FD7F /* iPad.storyboard */,
+			);
+			path = ECSlidingViewController;
+			sourceTree = "<group>";
+		};
+		2750E77714CDB0DF007727A0 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				CF8FFB3617464D2F00B7F406 /* MP3 */,
+				2750E77814CDB0DF007727A0 /* guideconstitution-Info.plist */,
+				2750E77914CDB0DF007727A0 /* InfoPlist.strings */,
+				2750E77C14CDB0DF007727A0 /* main.m */,
+				2750E77E14CDB0DF007727A0 /* guideconstitution-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		2750E78914CDB1C7007727A0 /* Vendor */ = {
+			isa = PBXGroup;
+			children = (
+				CF6192B8177C6D030023F074 /* Internet */,
+				CF6192AD177C68600023F074 /* Flurry */,
+				CF8FFB4417464E1C00B7F406 /* MDAudioPlayerController */,
+				2750E7A914CF1306007727A0 /* ECSlidingViewController */,
+			);
+			name = Vendor;
+			sourceTree = "<group>";
+		};
+		2750E78A14CDB1CF007727A0 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				CF81AE13179D3AF80012B4C0 /* ShareKitDemoConfigurator.h */,
+				CF81AE14179D3AF80012B4C0 /* ShareKitDemoConfigurator.m */,
+				2750E79514CDB959007727A0 /* FirstTopViewController.h */,
+				2750E79614CDB959007727A0 /* FirstTopViewController.m */,
+				27FC94DE14D0C14E0000B18C /* InitialSlidingViewController.h */,
+				27FC94DF14D0C14E0000B18C /* InitialSlidingViewController.m */,
+				2750E79214CDB93A007727A0 /* MenuViewController.h */,
+				2750E79314CDB93A007727A0 /* MenuViewController.m */,
+				CF218893179E3C4A00D99149 /* LinksTableController.h */,
+				CF218894179E3C4A00D99149 /* LinksTableController.m */,
+				CF218896179E405F00D99149 /* BrowserController.h */,
+				CF218897179E405F00D99149 /* BrowserController.m */,
+			);
+			name = Controllers;
+			sourceTree = "<group>";
+		};
+		2750E7A914CF1306007727A0 /* ECSlidingViewController */ = {
+			isa = PBXGroup;
+			children = (
+				2750E7AA14CF1306007727A0 /* ECSlidingViewController.h */,
+				2750E7AB14CF1306007727A0 /* ECSlidingViewController.m */,
+				279E158D14D737F60028A9EE /* UIImage+ImageWithUIView.h */,
+				2750E7AD14CF1306007727A0 /* UIImage+ImageWithUIView.m */,
+			);
+			name = ECSlidingViewController;
+			path = Vendor/ECSlidingViewController;
+			sourceTree = "<group>";
+		};
+		CF6192AD177C68600023F074 /* Flurry */ = {
+			isa = PBXGroup;
+			children = (
+				CF6192AE177C686C0023F074 /* Flurry.h */,
+				CF6192AF177C686C0023F074 /* libFlurry_4.2.2.a */,
+			);
+			name = Flurry;
+			sourceTree = "<group>";
+		};
+		CF6192B8177C6D030023F074 /* Internet */ = {
+			isa = PBXGroup;
+			children = (
+				CF6192B9177C6D160023F074 /* Reachability.h */,
+				CF6192BA177C6D160023F074 /* Reachability.m */,
+			);
+			name = Internet;
+			sourceTree = "<group>";
+		};
+		CF6192BE177C72000023F074 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				CF6192C0177C72230023F074 /* myCell.xib */,
+			);
+			name = Views;
+			sourceTree = "<group>";
+		};
+		CF6192BF177C72040023F074 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				CF6192C2177C722F0023F074 /* myCell.h */,
+				CF6192C3177C722F0023F074 /* myCell.m */,
+			);
+			name = Models;
+			sourceTree = "<group>";
+		};
+		CF81AD67179D34A80012B4C0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CF81AD99179D34AA0012B4C0 /* libShareKit.a */,
+				CF81AD9B179D34AA0012B4C0 /* ShareKit.bundle */,
+				CF81AD9D179D34AA0012B4C0 /* libShareKitCore.a */,
+				CF81AD9F179D34AA0012B4C0 /* libSSKeyChain.a */,
+				CF81ADA1179D34AA0012B4C0 /* libOAuth.a */,
+				CF81ADA3179D34AA0012B4C0 /* libReachability.a */,
+				CF81ADA5179D34AA0012B4C0 /* libCopy.a */,
+				CF81ADA7179D34AA0012B4C0 /* libEmail.a */,
+				CF81ADA9179D34AA0012B4C0 /* libLogout.a */,
+				CF81ADAB179D34AA0012B4C0 /* libOpen in Safari.a */,
+				CF81ADAD179D34AA0012B4C0 /* libPrint.a */,
+				CF81ADAF179D34AA0012B4C0 /* libSave to Album.a */,
+				CF81ADB1179D34AA0012B4C0 /* libText Message.a */,
+				CF81ADB3179D34AA0012B4C0 /* libDelicious.a */,
+				CF81ADB5179D34AA0012B4C0 /* libDiigo.a */,
+				CF81ADB7179D34AA0012B4C0 /* libEvernote.a */,
+				CF81ADB9179D34AA0012B4C0 /* libEvernote SDK.a */,
+				CF81ADBB179D34AA0012B4C0 /* libFacebook.a */,
+				CF81ADBD179D34AA0012B4C0 /* libFoursquareV2.a */,
+				CF81ADBF179D34AA0012B4C0 /* libFlickr.a */,
+				CF81ADC1179D34AA0012B4C0 /* libFlickr SDK.a */,
+				CF81ADC3179D34AA0012B4C0 /* libGoogle Plus.a */,
+				CF81ADC5179D34AA0012B4C0 /* libGoogle Plus SDK.a */,
+				CF81ADC7179D34AA0012B4C0 /* libInstagram.a */,
+				CF81ADC9179D34AA0012B4C0 /* libInstapaper.a */,
+				CF81ADCB179D34AA0012B4C0 /* libKippt.a */,
+				CF81ADCD179D34AA0012B4C0 /* libLinkedIn.a */,
+				CF81ADCF179D34AA0012B4C0 /* libPinboard.a */,
+				CF81ADD1179D34AA0012B4C0 /* libBuffer.a */,
+				CF81ADD3179D34AA0012B4C0 /* libSina Weibo.a */,
+				CF81ADD5179D34AA0012B4C0 /* libTumblr.a */,
+				CF81ADD7179D34AA0012B4C0 /* libTwitter.a */,
+				CF81ADD9179D34AA0012B4C0 /* libVKontakte.a */,
+				CF81ADDB179D34AA0012B4C0 /* libSina Weibo.a */,
+				CF81ADDD179D34AA0012B4C0 /* libReadability.a */,
+				CF81ADDF179D34AA0012B4C0 /* libHatena.a */,
+				CF81ADE1179D34AA0012B4C0 /* libPlurk.a */,
+				CF81ADE3179D34AA0012B4C0 /* libDropbox.a */,
+				CF81ADE5179D34AA0012B4C0 /* libDropbox SDK.a */,
+				CF81ADE7179D34AA0012B4C0 /* libYouTube.a */,
+				CF81ADE9179D34AA0012B4C0 /* libYouTube SDK.a */,
+				CF81ADEB179D34AA0012B4C0 /* libPocket.a */,
+				CF81ADED179D34AA0012B4C0 /* libPocket SDK.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CF81AE09179D360B0012B4C0 /* Google OAuth */ = {
+			isa = PBXGroup;
+			children = (
+				CF81AE08179D360B0012B4C0 /* GTMOAuth2ViewTouch.xib */,
+			);
+			name = "Google OAuth";
+			sourceTree = "<group>";
+		};
+		CF81AE0A179D360B0012B4C0 /* Resources - ShareKit Library */ = {
+			isa = PBXGroup;
+			children = (
+				CF81AE09179D360B0012B4C0 /* Google OAuth */,
+			);
+			name = "Resources - ShareKit Library";
+			path = ../../sharekit_2/Submodules/ShareKit;
+			sourceTree = "<group>";
+		};
+		CF8B49CE1779C043003768AD /* ipad */ = {
+			isa = PBXGroup;
+			children = (
+				CF8B49D11779C056003768AD /* main */,
+				CF8B49D01779C050003768AD /* menu */,
+			);
+			name = ipad;
+			sourceTree = "<group>";
+		};
+		CF8B49CF1779C046003768AD /* iphone */ = {
+			isa = PBXGroup;
+			children = (
+				CFE026E71779A87300BB3184 /* menu */,
+				CFF2C1E417788697002DC0EA /* main */,
+			);
+			name = iphone;
+			sourceTree = "<group>";
+		};
+		CF8B49D01779C050003768AD /* menu */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = menu;
+			sourceTree = "<group>";
+		};
+		CF8B49D11779C056003768AD /* main */ = {
+			isa = PBXGroup;
+			children = (
+				CF8B4A021779CC27003768AD /* ipad_flag.png */,
+				CF8B4A031779CC27003768AD /* ipad_flag@2x.png */,
+				CF8B49FA1779C606003768AD /* ipad_pause_off.png */,
+				CF8B49FB1779C606003768AD /* ipad_pause_off@2x.png */,
+				CF8B49E61779C5A9003768AD /* ipad_minus_off.png */,
+				CF8B49E71779C5A9003768AD /* ipad_minus_off@2x.png */,
+				CF8B49E81779C5A9003768AD /* ipad_next_off.png */,
+				CF8B49E91779C5A9003768AD /* ipad_next_off@2x.png */,
+				CF8B49EA1779C5A9003768AD /* ipad_play_off.png */,
+				CF8B49EB1779C5A9003768AD /* ipad_play_off@2x.png */,
+				CF8B49EC1779C5A9003768AD /* ipad_plus_off.png */,
+				CF8B49ED1779C5A9003768AD /* ipad_plus_off@2x.png */,
+				CF8B49EE1779C5A9003768AD /* ipad_prev_off.png */,
+				CF8B49EF1779C5A9003768AD /* ipad_prev_off@2x.png */,
+				CF8B49D21779C069003768AD /* ipad_bg_scroll.png */,
+				CF8B49D31779C069003768AD /* ipad_bg_scroll@2x.png */,
+				CF8B49D41779C069003768AD /* ipad_bottom_line.png */,
+				CF8B49D51779C069003768AD /* ipad_bottom_line@2x.png */,
+				CF8B49D61779C069003768AD /* ipad_bottom_panel.png */,
+				CF8B49D71779C069003768AD /* ipad_bottom_panel@2x.png */,
+				CF8B49D81779C069003768AD /* ipad_bottom_text.png */,
+				CF8B49D91779C069003768AD /* ipad_bottom_text@2x.png */,
+				CF8B49DA1779C069003768AD /* ipad_navbar.png */,
+				CF8B49DB1779C069003768AD /* ipad_navbar@2x.png */,
+			);
+			name = main;
+			sourceTree = "<group>";
+		};
+		CF8FFB3617464D2F00B7F406 /* MP3 */ = {
+			isa = PBXGroup;
+			children = (
+				CF1C8490175F2D2F00372658 /* Конституция Российской Федерации. Вступление.mp3 */,
+				CF1C8492175F2D9700372658 /* Раздел 1. Глава 1. - Основы конституционного строя. Статья 1.mp3 */,
+				CF1C8493175F2D9700372658 /* Статья 2.mp3 */,
+				CF1C8494175F2D9700372658 /* Статья 3.mp3 */,
+				CF1C8495175F2D9700372658 /* Статья 4.mp3 */,
+				CF1C8496175F2D9700372658 /* Статья 5.mp3 */,
+				CF1C8497175F2D9700372658 /* Статья 6.mp3 */,
+				CF1C8498175F2D9700372658 /* Статья 7.mp3 */,
+				CF1C8499175F2D9700372658 /* Статья 8.mp3 */,
+				CF1C849A175F2D9700372658 /* Статья 9.mp3 */,
+				CF1C849B175F2D9700372658 /* Статья 10.mp3 */,
+				CF1C849C175F2D9700372658 /* Статья 11.mp3 */,
+				CF1C849D175F2D9700372658 /* Статья 12.mp3 */,
+				CF1C849E175F2D9700372658 /* Статья 13.mp3 */,
+				CF1C849F175F2D9700372658 /* Статья 14.mp3 */,
+				CF1C84A0175F2D9700372658 /* Статья 15.mp3 */,
+				CF1C84A1175F2D9700372658 /* Статья 16.mp3 */,
+				CF1C84B2175F4DD300372658 /* Глава 2.- Права и свободы человека и гражданина. Статья 17.mp3 */,
+				CF1C84B3175F4DD300372658 /* Статья 18.mp3 */,
+				CF1C84B4175F4DD300372658 /* Статья 19.mp3 */,
+				CF1C84B5175F4DD300372658 /* Статья 20.mp3 */,
+				CF1C84B6175F4DD300372658 /* Статья 21.mp3 */,
+				CF1C84B7175F4DD300372658 /* Статья 22.mp3 */,
+				CF1C84B8175F4DD300372658 /* Статья 23.mp3 */,
+				CF1C84B9175F4DD300372658 /* Статья 24.mp3 */,
+				CF1C84BA175F4DD300372658 /* Статья 25.mp3 */,
+				CF1C84BB175F4DD300372658 /* Статья 26.mp3 */,
+				CF1C84BC175F4DD300372658 /* Статья 27.mp3 */,
+				CF1C84BD175F4DD300372658 /* Статья 28.mp3 */,
+				CF1C84BE175F4DD300372658 /* Статья 29.mp3 */,
+				CF1C84BF175F4DD300372658 /* Статья 30.mp3 */,
+				CF1C84C0175F4DD300372658 /* Статья 31.mp3 */,
+				CF1C84C1175F4DD300372658 /* Статья 32.mp3 */,
+				CF1C84C2175F4DD300372658 /* Статья 33.mp3 */,
+				CF1C84C3175F4DD300372658 /* Статья 34.mp3 */,
+				CF1C84C4175F4DD300372658 /* Статья 35.mp3 */,
+				CF1C84C5175F4DD300372658 /* Статья 36.mp3 */,
+				CF1C84C6175F4DD300372658 /* Статья 37.mp3 */,
+				CF1C84C7175F4DD300372658 /* Статья 38.mp3 */,
+				CF1C84C8175F4DD300372658 /* Статья 39.mp3 */,
+				CF1C84C9175F4DD300372658 /* Статья 40.mp3 */,
+				CF1C84CA175F4DD300372658 /* Статья 41.mp3 */,
+				CF1C84CB175F4DD300372658 /* Статья 42.mp3 */,
+				CF1C84CC175F4DD300372658 /* Статья 43.mp3 */,
+				CF1C84CD175F4DD300372658 /* Статья 44.mp3 */,
+				CF1C84CE175F4DD300372658 /* Статья 45.mp3 */,
+				CF1C84CF175F4DD300372658 /* Статья 46.mp3 */,
+				CF1C84D0175F4DD300372658 /* Статья 47.mp3 */,
+				CF1C84D1175F4DD300372658 /* Статья 48.mp3 */,
+				CF1C84D2175F4DD300372658 /* Статья 49.mp3 */,
+				CF1C84D3175F4DD300372658 /* Статья 50.mp3 */,
+				CF1C84D4175F4DD300372658 /* Статья 51.mp3 */,
+				CF1C84D5175F4DD300372658 /* Статья 52.mp3 */,
+				CF1C84D6175F4DD300372658 /* Статья 53.mp3 */,
+				CF1C84D7175F4DD300372658 /* Статья 54.mp3 */,
+				CF1C84D8175F4DD300372658 /* Статья 55.mp3 */,
+				CF1C84D9175F4DD300372658 /* Статья 56.mp3 */,
+				CF1C84DA175F4DD300372658 /* Статья 57.mp3 */,
+				CF1C84DB175F4DD400372658 /* Статья 58.mp3 */,
+				CF1C84DC175F4DD400372658 /* Статья 59.mp3 */,
+				CF1C84DD175F4DD400372658 /* Статья 60.mp3 */,
+				CF1C84DE175F4DD400372658 /* Статья 61.mp3 */,
+				CF1C84DF175F4DD400372658 /* Статья 62.mp3 */,
+				CF1C84E0175F4DD400372658 /* Статья 63.mp3 */,
+				CF1C84E1175F4DD400372658 /* Статья 64.mp3 */,
+				CF1C8512175F4EA800372658 /* Глава 3.- Федеративное устройство. Статья 65.mp3 */,
+				CF1C8513175F4EA800372658 /* Статья 66.mp3 */,
+				CF1C8514175F4EA800372658 /* Статья 67.mp3 */,
+				CF1C8515175F4EA800372658 /* Статья 68.mp3 */,
+				CF1C8516175F4EA800372658 /* Статья 69.mp3 */,
+				CF1C8517175F4EA800372658 /* Статья 70.mp3 */,
+				CF1C8518175F4EA800372658 /* Статья 71.mp3 */,
+				CF1C8519175F4EA800372658 /* Статья 72.mp3 */,
+				CF1C851A175F4EA800372658 /* Статья 73.mp3 */,
+				CF1C851B175F4EA800372658 /* Статья 74.mp3 */,
+				CF1C851C175F4EA800372658 /* Статья 75.mp3 */,
+				CF1C851D175F4EA800372658 /* Статья 76.mp3 */,
+				CF1C851E175F4EA800372658 /* Статья 77.mp3 */,
+				CF1C851F175F4EA800372658 /* Статья 78.mp3 */,
+				CF1C8520175F4EA800372658 /* Статья 79.mp3 */,
+				CF1C8530175F4F1B00372658 /* Глава 4.- Президент Российской Федерации. Статья 80.mp3 */,
+				CF1C8531175F4F1B00372658 /* Статья 81.mp3 */,
+				CF1C8532175F4F1B00372658 /* Статья 82.mp3 */,
+				CF1C8533175F4F1B00372658 /* Статья 83.mp3 */,
+				CF1C8534175F4F1B00372658 /* Статья 84.mp3 */,
+				CF1C8535175F4F1B00372658 /* Статья 85.mp3 */,
+				CF1C8536175F4F1B00372658 /* Статья 86.mp3 */,
+				CF1C8537175F4F1B00372658 /* Статья 87.mp3 */,
+				CF1C8538175F4F1B00372658 /* Статья 88.mp3 */,
+				CF1C8539175F4F1B00372658 /* Статья 89.mp3 */,
+				CF1C853A175F4F1B00372658 /* Статья 90.mp3 */,
+				CF1C853B175F4F1B00372658 /* Статья 91.mp3 */,
+				CF1C853C175F4F1B00372658 /* Статья 92.mp3 */,
+				CF1C853D175F4F1B00372658 /* Статья 93.mp3 */,
+				CF1C854C175F4FBD00372658 /* Глава 5.- Федеральное собрание. Статья 94.mp3 */,
+				CF1C854D175F4FBD00372658 /* Статья 95.mp3 */,
+				CF1C854E175F4FBD00372658 /* Статья 96.mp3 */,
+				CF1C854F175F4FBD00372658 /* Статья 97.mp3 */,
+				CF1C8550175F4FBD00372658 /* Статья 98.mp3 */,
+				CF1C8551175F4FBD00372658 /* Статья 99.mp3 */,
+				CF1C8552175F4FBD00372658 /* Статья 100.mp3 */,
+				CF1C8553175F4FBD00372658 /* Статья 101.mp3 */,
+				CF1C8554175F4FBD00372658 /* Статья 102.mp3 */,
+				CF1C8555175F4FBD00372658 /* Статья 103.mp3 */,
+				CF1C8556175F4FBD00372658 /* Статья 104.mp3 */,
+				CF1C8557175F4FBD00372658 /* Статья 105.mp3 */,
+				CF1C8558175F4FBD00372658 /* Статья 106.mp3 */,
+				CF1C8559175F4FBD00372658 /* Статья 107.mp3 */,
+				CF1C855A175F4FBD00372658 /* Статья 108.mp3 */,
+				CF1C855B175F4FBD00372658 /* Статья 109.mp3 */,
+				CF1C856C175F50D100372658 /* Глава 6.- Правительство Российской Федерации. Статья 110.mp3 */,
+				CF1C856D175F50D100372658 /* Глава 7.- Судебная власть. Статья 118.mp3 */,
+				CF1C856E175F50D100372658 /* Статья 111.mp3 */,
+				CF1C856F175F50D100372658 /* Статья 112.mp3 */,
+				CF1C8570175F50D100372658 /* Статья 113.mp3 */,
+				CF1C8571175F50D200372658 /* Статья 114.mp3 */,
+				CF1C8572175F50D200372658 /* Статья 115.mp3 */,
+				CF1C8573175F50D200372658 /* Статья 116.mp3 */,
+				CF1C8574175F50D200372658 /* Статья 117.mp3 */,
+				CF1C8575175F50D200372658 /* Статья 119.mp3 */,
+				CF1C8576175F50D200372658 /* Статья 120.mp3 */,
+				CF1C8594175F50E300372658 /* Глава 8.- Местное самоуправление.  Статья 130.mp3 */,
+				CF1C8595175F50E300372658 /* Глава 9.- Конституционные поправки и пересмотр конституции. Статья 134.mp3 */,
+				CF1C8596175F50E300372658 /* Раздел 2- Заключительное и переходное положение.mp3 */,
+				CF1C8597175F50E300372658 /* Статья 131.mp3 */,
+				CF1C8598175F50E300372658 /* Статья 132.mp3 */,
+				CF1C8599175F50E300372658 /* Статья 133.mp3 */,
+				CF1C859A175F50E300372658 /* Статья 135.mp3 */,
+				CF1C859B175F50E300372658 /* Статья 136.mp3 */,
+				CF1C859C175F50E300372658 /* Статья 137.mp3 */,
+				CF1C8577175F50D200372658 /* Статья 121.mp3 */,
+				CF1C8578175F50D200372658 /* Статья 122.mp3 */,
+				CF1C8579175F50D200372658 /* Статья 123.mp3 */,
+				CF1C857A175F50D200372658 /* Статья 124.mp3 */,
+				CF1C857B175F50D200372658 /* Статья 125.mp3 */,
+				CF1C857C175F50D200372658 /* Статья 126.mp3 */,
+				CF1C857D175F50D200372658 /* Статья 127.mp3 */,
+				CF1C857E175F50D200372658 /* Статья 128.mp3 */,
+				CF1C857F175F50D200372658 /* Статья 129.mp3 */,
+			);
+			name = MP3;
+			sourceTree = "<group>";
+		};
+		CF8FFB4417464E1C00B7F406 /* MDAudioPlayerController */ = {
+			isa = PBXGroup;
+			children = (
+				CF8FFB4E17464E3500B7F406 /* Images */,
+				CF8FFB4517464E3300B7F406 /* MDAudioFile.h */,
+				CF8FFB4617464E3300B7F406 /* MDAudioFile.m */,
+				CF8FFB4717464E3300B7F406 /* MDAudioPlayerController.h */,
+				CF8FFB4817464E3300B7F406 /* MDAudioPlayerController.m */,
+				CF8FFB4917464E3300B7F406 /* MDAudioPlayerTableViewCell.h */,
+				CF8FFB4A17464E3300B7F406 /* MDAudioPlayerTableViewCell.m */,
+			);
+			name = MDAudioPlayerController;
+			sourceTree = "<group>";
+		};
+		CF8FFB4E17464E3500B7F406 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				CF8FFB4F17464E3F00B7F406 /* AudioPlayerAlbumInfo.png */,
+				CF8FFB5017464E3F00B7F406 /* AudioPlayerBarBackground.png */,
+				CF8FFB5117464E3F00B7F406 /* AudioPlayerNextTrack.png */,
+				CF8FFB5217464E3F00B7F406 /* AudioPlayerNoArtwork.png */,
+				CF8FFB5317464E3F00B7F406 /* AudioPlayerPause.png */,
+				CF8FFB5417464E3F00B7F406 /* AudioPlayerPlay.png */,
+				CF8FFB5517464E3F00B7F406 /* AudioPlayerPrevTrack.png */,
+				CF8FFB5617464E3F00B7F406 /* AudioPlayerRepeatOff.png */,
+				CF8FFB5717464E3F00B7F406 /* AudioPlayerRepeatOn.png */,
+				CF8FFB5817464E3F00B7F406 /* AudioPlayerRepeatOneOn.png */,
+				CF8FFB5917464E3F00B7F406 /* AudioPlayerScrubberKnob.png */,
+				CF8FFB5A17464E3F00B7F406 /* AudioPlayerScrubberLeft.png */,
+				CF8FFB5B17464E3F00B7F406 /* AudioPlayerScrubberRight.png */,
+				CF8FFB5C17464E3F00B7F406 /* AudioPlayerShuffleOff.png */,
+				CF8FFB5D17464E3F00B7F406 /* AudioPlayerShuffleOn.png */,
+				CF8FFB5E17464E3F00B7F406 /* AudioPlayerTableBackground.png */,
+				CF8FFB5F17464E3F00B7F406 /* AudioPlayerVolumeKnob.png */,
+			);
+			name = Images;
+			sourceTree = "<group>";
+		};
+		CFE026E71779A87300BB3184 /* menu */ = {
+			isa = PBXGroup;
+			children = (
+				CF95B214177B0F030078983C /* iphone5_flag@2x.png */,
+				CF8B49FE1779CB06003768AD /* bg_right_menu.png */,
+				CF8B49FF1779CB06003768AD /* bg_right_menu@2x.png */,
+				CFE026F81779AF9400BB3184 /* currentCell.png */,
+				CFE026F91779AF9400BB3184 /* currentCell@2x.png */,
+				CFE026EC1779A8F800BB3184 /* sep.png */,
+				CFE026ED1779A8F800BB3184 /* sep@2x.png */,
+			);
+			name = menu;
+			sourceTree = "<group>";
+		};
+		CFF2C1E31778868F002DC0EA /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				CF8B49CF1779C046003768AD /* iphone */,
+				CF8B49CE1779C043003768AD /* ipad */,
+			);
+			name = Images;
+			sourceTree = "<group>";
+		};
+		CFF2C1E417788697002DC0EA /* main */ = {
+			isa = PBXGroup;
+			children = (
+				CF7ED05217BA5E1000EDD3C1 /* in@2x.png */,
+				CF7ED05317BA5E1000EDD3C1 /* in.png */,
+				CF7ED04E17BA5BF700EDD3C1 /* i.png */,
+				CF7ED04F17BA5BF700EDD3C1 /* i@2x.png */,
+				CF218866179E3B0800D99149 /* sh.png */,
+				CF218867179E3B0800D99149 /* sh@2x.png */,
+				CFF2C21D177895FA002DC0EA /* flag.png */,
+				CFF2C21E177895FA002DC0EA /* flag@2x.png */,
+				CFF2C219177894CC002DC0EA /* pause_off.png */,
+				CFF2C21A177894CC002DC0EA /* pause_off@2x.png */,
+				CFF2C215177891F9002DC0EA /* menu.png */,
+				CFF2C216177891F9002DC0EA /* menu@2x.png */,
+				CFF2C21117789190002DC0EA /* min.png */,
+				CFF2C21217789190002DC0EA /* min@2x.png */,
+				CFF2C20117788DDD002DC0EA /* minus_off.png */,
+				CFF2C20217788DDD002DC0EA /* minus_off@2x.png */,
+				CFF2C20317788DDD002DC0EA /* next_off.png */,
+				CFF2C20417788DDD002DC0EA /* next_off@2x.png */,
+				CFF2C20517788DDD002DC0EA /* play_off.png */,
+				CFF2C20617788DDD002DC0EA /* play_off@2x.png */,
+				CFF2C20717788DDD002DC0EA /* plus_off.png */,
+				CFF2C20817788DDD002DC0EA /* plus_off@2x.png */,
+				CFF2C1FD17788C87002DC0EA /* prev_off.png */,
+				CFF2C1FE17788C87002DC0EA /* prev_off@2x.png */,
+				CFF2C1E9177889F3002DC0EA /* bg_scroll.png */,
+				CFF2C1EA177889F3002DC0EA /* bg_scroll@2x.png */,
+				CFF2C1EB177889F3002DC0EA /* bottom_line.png */,
+				CFF2C1EC177889F3002DC0EA /* bottom_line@2x.png */,
+				CFF2C1ED177889F3002DC0EA /* bottom_panel.png */,
+				CFF2C1EE177889F3002DC0EA /* bottom_panel@2x.png */,
+				CFF2C1EF177889F3002DC0EA /* bottom_text.png */,
+				CFF2C1F0177889F3002DC0EA /* bottom_text@2x.png */,
+				CFF2C1E5177886AF002DC0EA /* navbar.png */,
+				CFF2C1E6177886AF002DC0EA /* navbar@2x.png */,
+			);
+			name = main;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2750E76B14CDB0DF007727A0 /* guideconstitution */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2750E78414CDB0DF007727A0 /* Build configuration list for PBXNativeTarget "guideconstitution" */;
+			buildPhases = (
+				2750E76814CDB0DF007727A0 /* Sources */,
+				2750E76914CDB0DF007727A0 /* Frameworks */,
+				2750E76A14CDB0DF007727A0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CF81ADF1179D34F20012B4C0 /* PBXTargetDependency */,
+				CF81ADEF179D34EB0012B4C0 /* PBXTargetDependency */,
+			);
+			name = guideconstitution;
+			productName = ECSlidingViewController;
+			productReference = 2750E76C14CDB0DF007727A0 /* guideconstitution.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2750E76314CDB0DF007727A0 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+			};
+			buildConfigurationList = 2750E76614CDB0DF007727A0 /* Build configuration list for PBXProject "guideconstitution" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 2750E76114CDB0DF007727A0;
+			productRefGroup = 2750E76D14CDB0DF007727A0 /* Products */;
+			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = CF81AD67179D34A80012B4C0 /* Products */;
+					ProjectRef = CF81AD66179D34A80012B4C0 /* ShareKit.xcodeproj */;
+				},
+			);
+			projectRoot = "";
+			targets = (
+				2750E76B14CDB0DF007727A0 /* guideconstitution */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		CF81AD99179D34AA0012B4C0 /* libShareKit.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libShareKit.a;
+			remoteRef = CF81AD98179D34AA0012B4C0 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		CF81AD9B179D34AA0012B4C0 /* ShareKit.bundle */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = ShareKit.bundle;
+			remoteRef = CF81AD9A179D34AA0012B4C0 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		CF81AD9D179D34AA0012B4C0 /* libShareKitCore.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libShareKitCore.a;
+			remoteRef = CF81AD9C179D34AA0012B4C0 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		CF81AD9F179D34AA0012B4C0 /* libSSKeyChain.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libSSKeyChain.a;
+			remoteRef = CF81AD9E179D34AA0012B4C0 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		CF81ADA1179D34AA0012B4C0 /* libOAuth.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libOAuth.a;
+			remoteRef = CF81ADA0179D34AA0012B4C0 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		CF81ADA3179D34AA0012B4C0 /* libReachability.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libReachability.a;
+			remoteRef = CF81ADA2179D34AA0012B4C0 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		CF81ADA5179D34AA0012B4C0 /* libCopy.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libCopy.a;
+			remoteRef = CF81ADA4179D34AA0012B4C0 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		CF81ADA7179D34AA0012B4C0 /* libEmail.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libEmail.a;
+			remoteRef = CF81ADA6179D34AA0012B4C0 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		CF81ADA9179D34AA0012B4C0 /* libLogout.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libLogout.a;
+			remoteRef = CF81ADA8179D34AA0012B4C0 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		CF81ADAB179D34AA0012B4C0 /* libOpen in Safari.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = "libOpen in Safari.a";
+			remoteRef = CF81ADAA179D34AA0012B4C0 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		CF81ADAD179D34AA0012B4C0 /* libPrint.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libPrint.a;
+			remoteRef = CF81ADAC179D34AA0012B4C0 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		CF81ADAF179D34AA0012B4C0 /* libSave to Album.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = "libSave to Album.a";
+			remoteRef = CF81ADAE179D34AA0012B4C0 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		CF81ADB1179D34AA0012B4C0 /* libText Message.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = "libText Message.a";
+			remoteRef = CF81ADB0179D34AA0012B4C0 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		CF81ADB3179D34AA0012B4C0 /* libDelicious.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libDelicious.a;
+			remoteRef = CF81ADB2179D34AA0012B4C0 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		CF81ADB5179D34AA0012B4C0 /* libDiigo.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libDiigo.a;
+			remoteRef = CF81ADB4179D34AA0012B4C0 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		CF81ADB7179D34AA0012B4C0 /* libEvernote.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libEvernote.a;
+			remoteRef = CF81ADB6179D34AA0012B4C0 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		CF81ADB9179D34AA0012B4C0 /* libEvernote SDK.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = "libEvernote SDK.a";
+			remoteRef = CF81ADB8179D34AA0012B4C0 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		CF81ADBB179D34AA0012B4C0 /* libFacebook.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libFacebook.a;
+			remoteRef = CF81ADBA179D34AA0012B4C0 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		CF81ADBD179D34AA0012B4C0 /* libFoursquareV2.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libFoursquareV2.a;
+			remoteRef = CF81ADBC179D34AA0012B4C0 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		CF81ADBF179D34AA0012B4C0 /* libFlickr.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libFlickr.a;
+			remoteRef = CF81ADBE179D34AA0012B4C0 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		CF81ADC1179D34AA0012B4C0 /* libFlickr SDK.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = "libFlickr SDK.a";
+			remoteRef = CF81ADC0179D34AA0012B4C0 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		CF81ADC3179D34AA0012B4C0 /* libGoogle Plus.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = "libGoogle Plus.a";
+			remoteRef = CF81ADC2179D34AA0012B4C0 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		CF81ADC5179D34AA0012B4C0 /* libGoogle Plus SDK.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = "libGoogle Plus SDK.a";
+			remoteRef = CF81ADC4179D34AA0012B4C0 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		CF81ADC7179D34AA0012B4C0 /* libInstagram.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libInstagram.a;
+			remoteRef = CF81ADC6179D34AA0012B4C0 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		CF81ADC9179D34AA0012B4C0 /* libInstapaper.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libInstapaper.a;
+			remoteRef = CF81ADC8179D34AA0012B4C0 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		CF81ADCB179D34AA0012B4C0 /* libKippt.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libKippt.a;
+			remoteRef = CF81ADCA179D34AA0012B4C0 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		CF81ADCD179D34AA0012B4C0 /* libLinkedIn.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libLinkedIn.a;
+			remoteRef = CF81ADCC179D34AA0012B4C0 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		CF81ADCF179D34AA0012B4C0 /* libPinboard.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libPinboard.a;
+			remoteRef = CF81ADCE179D34AA0012B4C0 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		CF81ADD1179D34AA0012B4C0 /* libBuffer.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libBuffer.a;
+			remoteRef = CF81ADD0179D34AA0012B4C0 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		CF81ADD3179D34AA0012B4C0 /* libSina Weibo.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = "libSina Weibo.a";
+			remoteRef = CF81ADD2179D34AA0012B4C0 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		CF81ADD5179D34AA0012B4C0 /* libTumblr.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libTumblr.a;
+			remoteRef = CF81ADD4179D34AA0012B4C0 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		CF81ADD7179D34AA0012B4C0 /* libTwitter.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libTwitter.a;
+			remoteRef = CF81ADD6179D34AA0012B4C0 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		CF81ADD9179D34AA0012B4C0 /* libVKontakte.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libVKontakte.a;
+			remoteRef = CF81ADD8179D34AA0012B4C0 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		CF81ADDB179D34AA0012B4C0 /* libSina Weibo.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = "libSina Weibo.a";
+			remoteRef = CF81ADDA179D34AA0012B4C0 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		CF81ADDD179D34AA0012B4C0 /* libReadability.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libReadability.a;
+			remoteRef = CF81ADDC179D34AA0012B4C0 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		CF81ADDF179D34AA0012B4C0 /* libHatena.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libHatena.a;
+			remoteRef = CF81ADDE179D34AA0012B4C0 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		CF81ADE1179D34AA0012B4C0 /* libPlurk.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libPlurk.a;
+			remoteRef = CF81ADE0179D34AA0012B4C0 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		CF81ADE3179D34AA0012B4C0 /* libDropbox.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libDropbox.a;
+			remoteRef = CF81ADE2179D34AA0012B4C0 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		CF81ADE5179D34AA0012B4C0 /* libDropbox SDK.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = "libDropbox SDK.a";
+			remoteRef = CF81ADE4179D34AA0012B4C0 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		CF81ADE7179D34AA0012B4C0 /* libYouTube.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libYouTube.a;
+			remoteRef = CF81ADE6179D34AA0012B4C0 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		CF81ADE9179D34AA0012B4C0 /* libYouTube SDK.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = "libYouTube SDK.a";
+			remoteRef = CF81ADE8179D34AA0012B4C0 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		CF81ADEB179D34AA0012B4C0 /* libPocket.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libPocket.a;
+			remoteRef = CF81ADEA179D34AA0012B4C0 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		CF81ADED179D34AA0012B4C0 /* libPocket SDK.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = "libPocket SDK.a";
+			remoteRef = CF81ADEC179D34AA0012B4C0 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2750E76A14CDB0DF007727A0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2750E77B14CDB0DF007727A0 /* InfoPlist.strings in Resources */,
+				2750E78814CDB114007727A0 /* iPhone.storyboard in Resources */,
+				27407EEC14D8787E0035FD7F /* iPad.storyboard in Resources */,
+				CF8FFB6017464E3F00B7F406 /* AudioPlayerAlbumInfo.png in Resources */,
+				CF8FFB6117464E3F00B7F406 /* AudioPlayerBarBackground.png in Resources */,
+				CF8FFB6217464E3F00B7F406 /* AudioPlayerNextTrack.png in Resources */,
+				CF8FFB6317464E3F00B7F406 /* AudioPlayerNoArtwork.png in Resources */,
+				CF8FFB6417464E3F00B7F406 /* AudioPlayerPause.png in Resources */,
+				CF8FFB6517464E3F00B7F406 /* AudioPlayerPlay.png in Resources */,
+				CF8FFB6617464E3F00B7F406 /* AudioPlayerPrevTrack.png in Resources */,
+				CF8FFB6717464E3F00B7F406 /* AudioPlayerRepeatOff.png in Resources */,
+				CF8FFB6817464E3F00B7F406 /* AudioPlayerRepeatOn.png in Resources */,
+				CF8FFB6917464E3F00B7F406 /* AudioPlayerRepeatOneOn.png in Resources */,
+				CF8FFB6A17464E3F00B7F406 /* AudioPlayerScrubberKnob.png in Resources */,
+				CF8FFB6B17464E3F00B7F406 /* AudioPlayerScrubberLeft.png in Resources */,
+				CF8FFB6C17464E3F00B7F406 /* AudioPlayerScrubberRight.png in Resources */,
+				CF8FFB6D17464E3F00B7F406 /* AudioPlayerShuffleOff.png in Resources */,
+				CF8FFB6E17464E3F00B7F406 /* AudioPlayerShuffleOn.png in Resources */,
+				CF8FFB6F17464E3F00B7F406 /* AudioPlayerTableBackground.png in Resources */,
+				CF8FFB7017464E3F00B7F406 /* AudioPlayerVolumeKnob.png in Resources */,
+				CF8EBC9F174B773D00AEADF1 /* Default-568h@2x.png in Resources */,
+				CF1C8491175F2D2F00372658 /* Конституция Российской Федерации. Вступление.mp3 in Resources */,
+				CF1C84A2175F2D9700372658 /* Раздел 1. Глава 1. - Основы конституционного строя. Статья 1.mp3 in Resources */,
+				CF1C84A3175F2D9700372658 /* Статья 2.mp3 in Resources */,
+				CF1C84A4175F2D9700372658 /* Статья 3.mp3 in Resources */,
+				CF1C84A5175F2D9700372658 /* Статья 4.mp3 in Resources */,
+				CF1C84A6175F2D9700372658 /* Статья 5.mp3 in Resources */,
+				CF1C84A7175F2D9700372658 /* Статья 6.mp3 in Resources */,
+				CF1C84A8175F2D9700372658 /* Статья 7.mp3 in Resources */,
+				CF1C84A9175F2D9700372658 /* Статья 8.mp3 in Resources */,
+				CF1C84AA175F2D9700372658 /* Статья 9.mp3 in Resources */,
+				CF1C84AB175F2D9700372658 /* Статья 10.mp3 in Resources */,
+				CF1C84AC175F2D9700372658 /* Статья 11.mp3 in Resources */,
+				CF1C84AD175F2D9700372658 /* Статья 12.mp3 in Resources */,
+				CF1C84AE175F2D9700372658 /* Статья 13.mp3 in Resources */,
+				CF1C84AF175F2D9700372658 /* Статья 14.mp3 in Resources */,
+				CF1C84B0175F2D9700372658 /* Статья 15.mp3 in Resources */,
+				CF1C84B1175F2D9700372658 /* Статья 16.mp3 in Resources */,
+				CF1C84E2175F4DD400372658 /* Глава 2.- Права и свободы человека и гражданина. Статья 17.mp3 in Resources */,
+				CF1C84E3175F4DD400372658 /* Статья 18.mp3 in Resources */,
+				CF1C84E4175F4DD400372658 /* Статья 19.mp3 in Resources */,
+				CF1C84E5175F4DD400372658 /* Статья 20.mp3 in Resources */,
+				CF1C84E6175F4DD400372658 /* Статья 21.mp3 in Resources */,
+				CF1C84E7175F4DD400372658 /* Статья 22.mp3 in Resources */,
+				CF1C84E8175F4DD400372658 /* Статья 23.mp3 in Resources */,
+				CF1C84E9175F4DD400372658 /* Статья 24.mp3 in Resources */,
+				CF1C84EA175F4DD400372658 /* Статья 25.mp3 in Resources */,
+				CF1C84EB175F4DD400372658 /* Статья 26.mp3 in Resources */,
+				CF1C84EC175F4DD400372658 /* Статья 27.mp3 in Resources */,
+				CF1C84ED175F4DD400372658 /* Статья 28.mp3 in Resources */,
+				CF1C84EE175F4DD400372658 /* Статья 29.mp3 in Resources */,
+				CF1C84EF175F4DD400372658 /* Статья 30.mp3 in Resources */,
+				CF1C84F0175F4DD400372658 /* Статья 31.mp3 in Resources */,
+				CF1C84F1175F4DD400372658 /* Статья 32.mp3 in Resources */,
+				CF1C84F2175F4DD400372658 /* Статья 33.mp3 in Resources */,
+				CF1C84F3175F4DD400372658 /* Статья 34.mp3 in Resources */,
+				CF1C84F4175F4DD400372658 /* Статья 35.mp3 in Resources */,
+				CF1C84F5175F4DD400372658 /* Статья 36.mp3 in Resources */,
+				CF1C84F6175F4DD400372658 /* Статья 37.mp3 in Resources */,
+				CF1C84F7175F4DD400372658 /* Статья 38.mp3 in Resources */,
+				CF1C84F8175F4DD400372658 /* Статья 39.mp3 in Resources */,
+				CF1C84F9175F4DD400372658 /* Статья 40.mp3 in Resources */,
+				CF1C84FA175F4DD400372658 /* Статья 41.mp3 in Resources */,
+				CF1C84FB175F4DD400372658 /* Статья 42.mp3 in Resources */,
+				CF1C84FC175F4DD400372658 /* Статья 43.mp3 in Resources */,
+				CF1C84FD175F4DD400372658 /* Статья 44.mp3 in Resources */,
+				CF1C84FE175F4DD400372658 /* Статья 45.mp3 in Resources */,
+				CF1C84FF175F4DD400372658 /* Статья 46.mp3 in Resources */,
+				CF1C8500175F4DD400372658 /* Статья 47.mp3 in Resources */,
+				CF1C8501175F4DD400372658 /* Статья 48.mp3 in Resources */,
+				CF1C8502175F4DD400372658 /* Статья 49.mp3 in Resources */,
+				CF1C8503175F4DD400372658 /* Статья 50.mp3 in Resources */,
+				CF1C8504175F4DD400372658 /* Статья 51.mp3 in Resources */,
+				CF1C8505175F4DD400372658 /* Статья 52.mp3 in Resources */,
+				CF1C8506175F4DD400372658 /* Статья 53.mp3 in Resources */,
+				CF1C8507175F4DD400372658 /* Статья 54.mp3 in Resources */,
+				CF1C8508175F4DD400372658 /* Статья 55.mp3 in Resources */,
+				CF1C8509175F4DD400372658 /* Статья 56.mp3 in Resources */,
+				CF1C850A175F4DD400372658 /* Статья 57.mp3 in Resources */,
+				CF1C850B175F4DD400372658 /* Статья 58.mp3 in Resources */,
+				CF1C850C175F4DD400372658 /* Статья 59.mp3 in Resources */,
+				CF1C850D175F4DD400372658 /* Статья 60.mp3 in Resources */,
+				CF1C850E175F4DD400372658 /* Статья 61.mp3 in Resources */,
+				CF1C850F175F4DD400372658 /* Статья 62.mp3 in Resources */,
+				CF1C8510175F4DD400372658 /* Статья 63.mp3 in Resources */,
+				CF1C8511175F4DD400372658 /* Статья 64.mp3 in Resources */,
+				CF1C8521175F4EA800372658 /* Глава 3.- Федеративное устройство. Статья 65.mp3 in Resources */,
+				CF1C8522175F4EA800372658 /* Статья 66.mp3 in Resources */,
+				CF1C8523175F4EA800372658 /* Статья 67.mp3 in Resources */,
+				CF1C8524175F4EA800372658 /* Статья 68.mp3 in Resources */,
+				CF1C8525175F4EA800372658 /* Статья 69.mp3 in Resources */,
+				CF1C8526175F4EA800372658 /* Статья 70.mp3 in Resources */,
+				CF1C8527175F4EA800372658 /* Статья 71.mp3 in Resources */,
+				CF1C8528175F4EA800372658 /* Статья 72.mp3 in Resources */,
+				CF1C8529175F4EA800372658 /* Статья 73.mp3 in Resources */,
+				CF1C852A175F4EA800372658 /* Статья 74.mp3 in Resources */,
+				CF1C852B175F4EA800372658 /* Статья 75.mp3 in Resources */,
+				CF1C852C175F4EA800372658 /* Статья 76.mp3 in Resources */,
+				CF1C852D175F4EA800372658 /* Статья 77.mp3 in Resources */,
+				CF1C852E175F4EA800372658 /* Статья 78.mp3 in Resources */,
+				CF1C852F175F4EA800372658 /* Статья 79.mp3 in Resources */,
+				CF1C853E175F4F1B00372658 /* Глава 4.- Президент Российской Федерации. Статья 80.mp3 in Resources */,
+				CF1C853F175F4F1B00372658 /* Статья 81.mp3 in Resources */,
+				CF1C8540175F4F1B00372658 /* Статья 82.mp3 in Resources */,
+				CF1C8541175F4F1B00372658 /* Статья 83.mp3 in Resources */,
+				CF1C8542175F4F1B00372658 /* Статья 84.mp3 in Resources */,
+				CF1C8543175F4F1B00372658 /* Статья 85.mp3 in Resources */,
+				CF1C8544175F4F1B00372658 /* Статья 86.mp3 in Resources */,
+				CF1C8545175F4F1B00372658 /* Статья 87.mp3 in Resources */,
+				CF1C8546175F4F1B00372658 /* Статья 88.mp3 in Resources */,
+				CF1C8547175F4F1B00372658 /* Статья 89.mp3 in Resources */,
+				CF1C8548175F4F1B00372658 /* Статья 90.mp3 in Resources */,
+				CF1C8549175F4F1B00372658 /* Статья 91.mp3 in Resources */,
+				CF1C854A175F4F1B00372658 /* Статья 92.mp3 in Resources */,
+				CF1C854B175F4F1B00372658 /* Статья 93.mp3 in Resources */,
+				CF1C855C175F4FBD00372658 /* Глава 5.- Федеральное собрание. Статья 94.mp3 in Resources */,
+				CF1C855D175F4FBD00372658 /* Статья 95.mp3 in Resources */,
+				CF1C855E175F4FBD00372658 /* Статья 96.mp3 in Resources */,
+				CF1C855F175F4FBD00372658 /* Статья 97.mp3 in Resources */,
+				CF1C8560175F4FBD00372658 /* Статья 98.mp3 in Resources */,
+				CF1C8561175F4FBD00372658 /* Статья 99.mp3 in Resources */,
+				CF1C8562175F4FBD00372658 /* Статья 100.mp3 in Resources */,
+				CF1C8563175F4FBD00372658 /* Статья 101.mp3 in Resources */,
+				CF1C8564175F4FBD00372658 /* Статья 102.mp3 in Resources */,
+				CF1C8565175F4FBD00372658 /* Статья 103.mp3 in Resources */,
+				CF1C8566175F4FBD00372658 /* Статья 104.mp3 in Resources */,
+				CF1C8567175F4FBD00372658 /* Статья 105.mp3 in Resources */,
+				CF1C8568175F4FBD00372658 /* Статья 106.mp3 in Resources */,
+				CF1C8569175F4FBD00372658 /* Статья 107.mp3 in Resources */,
+				CF1C856A175F4FBD00372658 /* Статья 108.mp3 in Resources */,
+				CF1C856B175F4FBD00372658 /* Статья 109.mp3 in Resources */,
+				CF1C8580175F50D200372658 /* Глава 6.- Правительство Российской Федерации. Статья 110.mp3 in Resources */,
+				CF1C8581175F50D200372658 /* Глава 7.- Судебная власть. Статья 118.mp3 in Resources */,
+				CF1C8582175F50D200372658 /* Статья 111.mp3 in Resources */,
+				CF1C8583175F50D200372658 /* Статья 112.mp3 in Resources */,
+				CF1C8584175F50D200372658 /* Статья 113.mp3 in Resources */,
+				CF1C8585175F50D200372658 /* Статья 114.mp3 in Resources */,
+				CF1C8586175F50D200372658 /* Статья 115.mp3 in Resources */,
+				CF1C8587175F50D200372658 /* Статья 116.mp3 in Resources */,
+				CF1C8588175F50D200372658 /* Статья 117.mp3 in Resources */,
+				CF1C8589175F50D200372658 /* Статья 119.mp3 in Resources */,
+				CF1C858A175F50D200372658 /* Статья 120.mp3 in Resources */,
+				CF1C858B175F50D200372658 /* Статья 121.mp3 in Resources */,
+				CF1C858C175F50D200372658 /* Статья 122.mp3 in Resources */,
+				CF1C858D175F50D200372658 /* Статья 123.mp3 in Resources */,
+				CF1C858E175F50D200372658 /* Статья 124.mp3 in Resources */,
+				CF1C858F175F50D200372658 /* Статья 125.mp3 in Resources */,
+				CF1C8590175F50D200372658 /* Статья 126.mp3 in Resources */,
+				CF1C8591175F50D200372658 /* Статья 127.mp3 in Resources */,
+				CF1C8592175F50D200372658 /* Статья 128.mp3 in Resources */,
+				CF1C8593175F50D200372658 /* Статья 129.mp3 in Resources */,
+				CF1C859D175F50E300372658 /* Глава 8.- Местное самоуправление.  Статья 130.mp3 in Resources */,
+				CF1C859E175F50E300372658 /* Глава 9.- Конституционные поправки и пересмотр конституции. Статья 134.mp3 in Resources */,
+				CF1C859F175F50E300372658 /* Раздел 2- Заключительное и переходное положение.mp3 in Resources */,
+				CF1C85A0175F50E300372658 /* Статья 131.mp3 in Resources */,
+				CF1C85A1175F50E300372658 /* Статья 132.mp3 in Resources */,
+				CF1C85A2175F50E300372658 /* Статья 133.mp3 in Resources */,
+				CF1C85A3175F50E300372658 /* Статья 135.mp3 in Resources */,
+				CF1C85A4175F50E300372658 /* Статья 136.mp3 in Resources */,
+				CF1C85A5175F50E300372658 /* Статья 137.mp3 in Resources */,
+				CF607AD4176F1DA600071529 /* icon114.png in Resources */,
+				CFF2C1DB17788411002DC0EA /* Default@2x.png in Resources */,
+				CFF2C1DD1778841E002DC0EA /* Default.png in Resources */,
+				CFF2C1DF1778842C002DC0EA /* Default-Portrait@2x~ipad.png in Resources */,
+				CFF2C1E11778842F002DC0EA /* Default-Portrait~ipad.png in Resources */,
+				CFF2C1E7177886AF002DC0EA /* navbar.png in Resources */,
+				CFF2C1E8177886AF002DC0EA /* navbar@2x.png in Resources */,
+				CFF2C1F1177889F3002DC0EA /* bg_scroll.png in Resources */,
+				CFF2C1F2177889F3002DC0EA /* bg_scroll@2x.png in Resources */,
+				CFF2C1F3177889F3002DC0EA /* bottom_line.png in Resources */,
+				CFF2C1F4177889F3002DC0EA /* bottom_line@2x.png in Resources */,
+				CFF2C1F5177889F3002DC0EA /* bottom_panel.png in Resources */,
+				CFF2C1F6177889F3002DC0EA /* bottom_panel@2x.png in Resources */,
+				CFF2C1F7177889F3002DC0EA /* bottom_text.png in Resources */,
+				CFF2C1F8177889F3002DC0EA /* bottom_text@2x.png in Resources */,
+				CFF2C1FF17788C87002DC0EA /* prev_off.png in Resources */,
+				CFF2C20017788C87002DC0EA /* prev_off@2x.png in Resources */,
+				CFF2C20917788DDD002DC0EA /* minus_off.png in Resources */,
+				CFF2C20A17788DDD002DC0EA /* minus_off@2x.png in Resources */,
+				CFF2C20B17788DDD002DC0EA /* next_off.png in Resources */,
+				CFF2C20C17788DDD002DC0EA /* next_off@2x.png in Resources */,
+				CFF2C20D17788DDD002DC0EA /* play_off.png in Resources */,
+				CFF2C20E17788DDD002DC0EA /* play_off@2x.png in Resources */,
+				CFF2C20F17788DDD002DC0EA /* plus_off.png in Resources */,
+				CFF2C21017788DDD002DC0EA /* plus_off@2x.png in Resources */,
+				CFF2C21317789190002DC0EA /* min.png in Resources */,
+				CFF2C21417789190002DC0EA /* min@2x.png in Resources */,
+				CFF2C217177891F9002DC0EA /* menu.png in Resources */,
+				CFF2C218177891F9002DC0EA /* menu@2x.png in Resources */,
+				CFF2C21B177894CC002DC0EA /* pause_off.png in Resources */,
+				CFF2C21C177894CC002DC0EA /* pause_off@2x.png in Resources */,
+				CFF2C21F177895FA002DC0EA /* flag.png in Resources */,
+				CFF2C220177895FA002DC0EA /* flag@2x.png in Resources */,
+				CFE026EE1779A8F800BB3184 /* sep.png in Resources */,
+				CFE026EF1779A8F800BB3184 /* sep@2x.png in Resources */,
+				CFE026FA1779AF9400BB3184 /* currentCell.png in Resources */,
+				CFE026FB1779AF9400BB3184 /* currentCell@2x.png in Resources */,
+				CF8B49DC1779C069003768AD /* ipad_bg_scroll.png in Resources */,
+				CF8B49DD1779C069003768AD /* ipad_bg_scroll@2x.png in Resources */,
+				CF8B49DE1779C069003768AD /* ipad_bottom_line.png in Resources */,
+				CF8B49DF1779C069003768AD /* ipad_bottom_line@2x.png in Resources */,
+				CF8B49E01779C069003768AD /* ipad_bottom_panel.png in Resources */,
+				CF8B49E11779C069003768AD /* ipad_bottom_panel@2x.png in Resources */,
+				CF8B49E21779C069003768AD /* ipad_bottom_text.png in Resources */,
+				CF8B49E31779C069003768AD /* ipad_bottom_text@2x.png in Resources */,
+				CF8B49E41779C069003768AD /* ipad_navbar.png in Resources */,
+				CF8B49E51779C069003768AD /* ipad_navbar@2x.png in Resources */,
+				CF8B49F01779C5A9003768AD /* ipad_minus_off.png in Resources */,
+				CF8B49F11779C5A9003768AD /* ipad_minus_off@2x.png in Resources */,
+				CF8B49F21779C5A9003768AD /* ipad_next_off.png in Resources */,
+				CF8B49F31779C5A9003768AD /* ipad_next_off@2x.png in Resources */,
+				CF8B49F41779C5A9003768AD /* ipad_play_off.png in Resources */,
+				CF8B49F51779C5A9003768AD /* ipad_play_off@2x.png in Resources */,
+				CF8B49F61779C5A9003768AD /* ipad_plus_off.png in Resources */,
+				CF8B49F71779C5A9003768AD /* ipad_plus_off@2x.png in Resources */,
+				CF8B49F81779C5A9003768AD /* ipad_prev_off.png in Resources */,
+				CF8B49F91779C5A9003768AD /* ipad_prev_off@2x.png in Resources */,
+				CF8B49FC1779C606003768AD /* ipad_pause_off.png in Resources */,
+				CF8B49FD1779C606003768AD /* ipad_pause_off@2x.png in Resources */,
+				CF8B4A001779CB06003768AD /* bg_right_menu.png in Resources */,
+				CF8B4A011779CB06003768AD /* bg_right_menu@2x.png in Resources */,
+				CF8B4A041779CC27003768AD /* ipad_flag.png in Resources */,
+				CF8B4A051779CC27003768AD /* ipad_flag@2x.png in Resources */,
+				CF81ADF3179D35230012B4C0 /* ShareKit.bundle in Resources */,
+				CF95B215177B0F030078983C /* iphone5_flag@2x.png in Resources */,
+				CF95B217177B10850078983C /* icon57.png in Resources */,
+				CF95B219177B108A0078983C /* icon72.png in Resources */,
+				CF95B21B177B108D0078983C /* icon144.png in Resources */,
+				CF6192C1177C72230023F074 /* myCell.xib in Resources */,
+				CF81AE0B179D360B0012B4C0 /* GTMOAuth2ViewTouch.xib in Resources */,
+				CF218868179E3B0800D99149 /* sh.png in Resources */,
+				CF218869179E3B0800D99149 /* sh@2x.png in Resources */,
+				CF7ED05017BA5BF800EDD3C1 /* i.png in Resources */,
+				CF7ED05117BA5BF800EDD3C1 /* i@2x.png in Resources */,
+				CF7ED05417BA5E1100EDD3C1 /* in@2x.png in Resources */,
+				CF7ED05517BA5E1100EDD3C1 /* in.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2750E76814CDB0DF007727A0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2750E77D14CDB0DF007727A0 /* main.m in Sources */,
+				2750E78114CDB0DF007727A0 /* AppDelegate.m in Sources */,
+				2750E79414CDB93A007727A0 /* MenuViewController.m in Sources */,
+				2750E79714CDB959007727A0 /* FirstTopViewController.m in Sources */,
+				2750E7AE14CF1306007727A0 /* ECSlidingViewController.m in Sources */,
+				2750E7AF14CF1306007727A0 /* UIImage+ImageWithUIView.m in Sources */,
+				27FC94E014D0C14E0000B18C /* InitialSlidingViewController.m in Sources */,
+				CF8FFB4B17464E3300B7F406 /* MDAudioFile.m in Sources */,
+				CF8FFB4C17464E3300B7F406 /* MDAudioPlayerController.m in Sources */,
+				CF8FFB4D17464E3300B7F406 /* MDAudioPlayerTableViewCell.m in Sources */,
+				CF6192BB177C6D160023F074 /* Reachability.m in Sources */,
+				CF6192C4177C722F0023F074 /* myCell.m in Sources */,
+				CF81AE15179D3AF80012B4C0 /* ShareKitDemoConfigurator.m in Sources */,
+				CF218895179E3C4A00D99149 /* LinksTableController.m in Sources */,
+				CF218898179E405F00D99149 /* BrowserController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CF81ADEF179D34EB0012B4C0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Static Library";
+			targetProxy = CF81ADEE179D34EB0012B4C0 /* PBXContainerItemProxy */;
+		};
+		CF81ADF1179D34F20012B4C0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Resource Bundle";
+			targetProxy = CF81ADF0179D34F20012B4C0 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		2750E77914CDB0DF007727A0 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2750E77A14CDB0DF007727A0 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		2750E78214CDB0DF007727A0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CODE_SIGN_IDENTITY = "iPhone Distribution: Artem Kuchin (G43FET2VAL)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: Artem Kuchin (G43FET2VAL)";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				PROVISIONING_PROFILE = "2F291207-4248-46BE-B583-F0396495F535";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "2F291207-4248-46BE-B583-F0396495F535";
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		2750E78314CDB0DF007727A0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CODE_SIGN_IDENTITY = "iPhone Distribution: Artem Kuchin (G43FET2VAL)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: Artem Kuchin (G43FET2VAL)";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				PROVISIONING_PROFILE = "2F291207-4248-46BE-B583-F0396495F535";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "2F291207-4248-46BE-B583-F0396495F535";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2750E78514CDB0DF007727A0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = YES;
+				CODE_SIGN_IDENTITY = "iPhone Distribution: Artem Kuchin (G43FET2VAL)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: Artem Kuchin (G43FET2VAL)";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ECSlidingViewController/guideconstitution-Prefix.pch";
+				INFOPLIST_FILE = "ECSlidingViewController/guideconstitution-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/ECSlidingViewController\"",
+				);
+				ONLY_ACTIVE_ARCH = YES;
+				OTHER_LDFLAGS = (
+					"-all_load",
+					"-ObjC",
+				);
+				PRODUCT_NAME = guideconstitution;
+				PROVISIONING_PROFILE = "2F291207-4248-46BE-B583-F0396495F535";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "2F291207-4248-46BE-B583-F0396495F535";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				USER_HEADER_SEARCH_PATHS = "../** Submodules/";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		2750E78614CDB0DF007727A0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = YES;
+				CODE_SIGN_IDENTITY = "iPhone Distribution: Artem Kuchin (G43FET2VAL)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: Artem Kuchin (G43FET2VAL)";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ECSlidingViewController/guideconstitution-Prefix.pch";
+				INFOPLIST_FILE = "ECSlidingViewController/guideconstitution-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/ECSlidingViewController\"",
+				);
+				ONLY_ACTIVE_ARCH = YES;
+				OTHER_LDFLAGS = (
+					"-all_load",
+					"-ObjC",
+				);
+				PRODUCT_NAME = guideconstitution;
+				PROVISIONING_PROFILE = "2F291207-4248-46BE-B583-F0396495F535";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "2F291207-4248-46BE-B583-F0396495F535";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				USER_HEADER_SEARCH_PATHS = "../** Submodules/";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2750E76614CDB0DF007727A0 /* Build configuration list for PBXProject "guideconstitution" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2750E78214CDB0DF007727A0 /* Debug */,
+				2750E78314CDB0DF007727A0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2750E78414CDB0DF007727A0 /* Build configuration list for PBXNativeTarget "guideconstitution" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2750E78514CDB0DF007727A0 /* Debug */,
+				2750E78614CDB0DF007727A0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2750E76314CDB0DF007727A0 /* Project object */;
+}
